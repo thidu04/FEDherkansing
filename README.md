@@ -57,6 +57,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Er wordt netjes aangegeven waar je je bevindt, zoals in de navigatiebalk of in de footer.
+  Ze hebben veel list items gemaakt in de website en voor de titels veel level 3 headings
+  Linkjes bij images, buttons en tekst.
+  Wanneer je in een toolbar bent waar de producten worden weergegeven leest hij een hele tekst voor wat nogal verwarrend is.
 
 </details>
 
