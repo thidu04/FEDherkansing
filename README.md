@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/home-koreanskincare.png" width="375px" alt="De home pagina van de Korean Skincare website">
+  <img src="readme-images/home-koreanskincare.png" width="100px" alt="De home pagina van de Korean Skincare website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/product-koreanskincare.png" width="375px" alt="De product pagina van de Anua foaming cleanser">
+  <img src="readme-images/product-koreanskincare.png" width="100px" alt="De product pagina van de Anua foaming cleanser">
  
 </details>
 
