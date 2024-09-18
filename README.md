@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://koreanskincare.nl/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Homepage van Korean Skincare:  
   <img src="readme-images/home-koreanskincare.png" width="100px" alt="De home pagina van de Korean Skincare website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Een product pagina van Korean skincare:
   <img src="readme-images/product-koreanskincare.png" width="100px" alt="De product pagina van de Anua foaming cleanser">
  
 </details>
@@ -94,14 +94,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Mijn vragen:
+  - Zou ik alles moeten maken van de gekozen paina's?
+  - Hoe zou ik de h3 titels met een streep moeten maken?
+  - Hoe zorg je ervoor dat wanneer je over een product plaatje hovered dat die verandert naar een ander product plaatje?
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Donderdag 19-09-2024
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Thi            | Keysha             | Diya         | Giulietta        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | en dat ook n   | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
