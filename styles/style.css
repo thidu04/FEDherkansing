@@ -1,27 +1,21 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
-
-
-
-
-
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #eee;
+	--font-family: Poppins;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
@@ -29,3 +23,176 @@
 
 /* jouw code */
 
+header {
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	padding: 1em;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0em;
+	list-style: none;
+	gap: 1em;
+}
+
+
+nav a {
+	flex-direction: column;
+	border: none;
+}
+
+ul li:nth-child(1) img {
+	width: 4em;
+	height: 1.5em;
+}
+
+ul li:nth-child(2) img {
+	width: 1.2em;
+	height: 1.2em;
+}
+
+ul li:nth-child(3) img {
+	width: 7em;
+	height: 2em;
+}
+
+ul li:nth-child(4) img,
+ul li:nth-child(5) img {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+/* De stijl voor de Swiper elementen */
+section ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+section li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1em;
+	background: #fff2f9;
+	/* Transparante balk */
+	padding: 0.5em;
+	flex: 0 0 100%;
+	/* Zorgt ervoor dat elk li-element de volle breedte van de swiper in beslag neemt */
+}
+
+section li img {
+	margin-right: 1em;
+	/* Ruimte tussen afbeelding en tekst */
+}
+
+section li p {
+	margin: 0;
+	font-family: var(--font-family);
+}
+
+/* Gebruik van nth-child voor specifieke afbeeldingen */
+section li:nth-child(1) img {
+	width: 1.8em;
+	height: 1.5em;
+}
+
+section li:nth-child(2) img {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+section li:nth-child(3) img {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+
+/* Pseudoklassen voor navigatieknoppen */
+section button:nth-of-type(1) {
+	position: absolute;
+	top: 3em;
+	left: 10px;
+	transform: translateY(-50%);
+	background: none;
+	border: none;
+	font-size: 2em;
+	color: #000;
+}
+
+section button:nth-of-type(2) {
+	position: absolute;
+	top: 3em;
+	right: 10px;
+	transform: translateY(-50%);
+	background: none;
+	border: none;
+	font-size: 2em;
+	color: #000;
+}
+
+
+h2 {
+	display: flex;
+	/* elementen naast elkaar */
+	align-items: center;
+	/* heading en lijnen gecentreerd */
+	gap: 1em;
+	/* witruimte tussen heading en lijnen */
+	font-family: var(--font-family);
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+/* met de before en after elementen kan je deze lijnen maken. het before element is bij deze de lijn voor de heading en de lijn achter de heading is het. after element */
+h2:before,
+h2:after {
+	content: '';
+	/* moet erin staan anders gebeurt er niets. In de '' kan je eventueel ook in schrijven */
+	width: 100%;
+	border-bottom: solid 0.1em;
+	/* de lijn zelf */
+}
+
+
+section:nth-child(4) {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 10em) 18em;
+	gap: 0.5em;
+	width: 100%;
+	max-width: 38em;
+
+}
+
+article {
+	width: 100%;
+	height: 100%;
+}
+
+section article img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 3%;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+article:nth-child(5) {
+	grid-column: 1 / -1;
+	padding-bottom: 1em;
+}
