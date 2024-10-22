@@ -11,188 +11,219 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
 	--color-text: #111;
-	--color-background: #eee;
+	--color-background: rgb(255, 255, 255);
 	--font-family: Poppins;
+}
+
+
+html {
+	scroll-padding-top:5em;
+	scroll-behavior: smooth;
 }
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+h1 {
+	width: 3em;
+	height: 1.14em;
+	order: 3;
+}
 
 header {
-	display: flex;
-	justify-content: center;
-}
-
-nav {
-	padding: 1em;
-}
-
-nav ul {
-	display: flex;
-	justify-content: space-around;
-	margin: 0;
-	padding: 0em;
+	min-height: 4em;
+	padding: 0 1em;
+	line-height: 1;
 	list-style: none;
-	gap: 1em;
+
+	display: flex;
+	justify-content: space-between
+
 }
 
 
-nav a {
-	flex-direction: column;
-	border: none;
-}
-
-ul li:nth-child(1) img {
-	width: 4em;
-	height: 1.5em;
-}
-
-ul li:nth-child(2) img {
+/*********************/
+/* NAV 1 MENU ICONEN */
+/*********************/
+button:nth-of-type(2) img {
 	width: 1.2em;
 	height: 1.2em;
 }
 
-ul li:nth-child(3) img {
-	width: 7em;
-	height: 2em;
+
+button:nth-of-type(3) img {
+	width: 1.4em;
+	height: 1.4em;
 }
 
-ul li:nth-child(4) img,
-ul li:nth-child(5) img {
+button:nth-of-type(4) img {
 	width: 1.5em;
 	height: 1.5em;
 }
 
-/* De stijl voor de Swiper elementen */
-section ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
+button:nth-of-type(1) {
+	order: 1;
 }
 
-section li {
+button:nth-of-type(2) {
+	order: 2;
+}
+
+
+button:nth-of-type(3) {
+	order: 4;
+}
+
+button:nth-of-type(4) {
+	order: 5;
+}
+
+/*********************/
+/* Hamburger button */
+/*********************/
+header button {
+	padding: .5em;
+
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	gap: .25em;
+
+	appearance: none;
+	background-color: white;
+	border: none;
+	border-radius: .25em;
 	text-align: center;
-	font-size: 1em;
-	background: #fff2f9;
-	/* Transparante balk */
-	padding: 0.5em;
-	flex: 0 0 100%;
-	/* Zorgt ervoor dat elk li-element de volle breedte van de swiper in beslag neemt */
+	color: var(--color-text);
 }
 
-section li img {
-	margin-right: 1em;
-	/* Ruimte tussen afbeelding en tekst */
+button:nth-of-type(1) img {
+	height: 4em;
+	width: 2em;
+	order: 1;
 }
 
-section li p {
-	margin: 0;
-	font-family: var(--font-family);
-}
-
-/* Gebruik van nth-child voor specifieke afbeeldingen */
-section li:nth-child(1) img {
-	width: 1.8em;
-	height: 1.5em;
-}
-
-section li:nth-child(2) img {
-	width: 1.5em;
-	height: 1.5em;
-}
-
-section li:nth-child(3) img {
-	width: 1.5em;
-	height: 1.5em;
+header nav button {
+	justify-self: end;
+	margin-right: 2em;
 }
 
 
-/* Pseudoklassen voor navigatieknoppen */
-section button:nth-of-type(1) {
-	position: absolute;
-	top: 3em;
-	left: 10px;
-	transform: translateY(-50%);
-	background: none;
-	border: none;
-	font-size: 2em;
-	color: #000;
+
+/***************/
+/* SLUIT BUTTON */
+/***************/
+nav button {
+/* Zorg dat de sluit-knop bovenaan staat en helemaal rechts positioneren */
+		position: absolute;
+		
 }
 
-section button:nth-of-type(2) {
-	position: absolute;
-	top: 3em;
-	right: 10px;
-	transform: translateY(-50%);
-	background: none;
-	border: none;
-	font-size: 2em;
-	color: #000;
+header nav button:nth-of-type(1) img{
+	width: 1em;
+    height: auto; 
 }
 
+/************************/
+/* NAV 2 HAMBURGER MENU */
+/************************/
+header nav {
+	padding: 2em;
 
-h2 {
-	display: flex;
-	/* elementen naast elkaar */
-	align-items: center;
-	/* heading en lijnen gecentreerd */
-	gap: 1em;
-	/* witruimte tussen heading en lijnen */
-	font-family: var(--font-family);
-	text-transform: uppercase;
-	white-space: nowrap;
-}
-
-/* met de before en after elementen kan je deze lijnen maken. het before element is bij deze de lijn voor de heading en de lijn achter de heading is het. after element */
-h2:before,
-h2:after {
-	content: '';
-	/* moet erin staan anders gebeurt er niets. In de '' kan je eventueel ook in schrijven */
-	width: 100%;
-	border-bottom: solid 0.1em;
-	/* de lijn zelf */
-}
-
-
-section:nth-child(4) {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 10em) 18em;
-	gap: 0.5em;
-	width: 100%;
-	max-width: 38em;
+	align-content: start;
+	gap: 1em;
+
+	background-color: var(--color-background);
+
+	position: fixed;
+
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	translate: -100% 0%;
+
+	transition: translate .3s;
+	z-index: 100;
+}
+
+/* Als menu open is */
+nav.toonMenu {
+	translate: 0% 0%;
+}
+
+/*******************/
+/* LIJST MET LINKS */
+/*******************/
+header nav ul {
+	margin: 0;
+	padding: 0em;
+	list-style: none;
+	
+}
+
+/* Alle links in de hamburgermenu */
+header a {
+	padding: .5em 0;
+	color: var(--color-text);
+	
+}
+
+
+/************************/
+/* EEN LINK IN DE LIJST */
+/************************/
+header nav a {
+	display: flex;
+	align-items: center;
+	column-gap: .25em;
+
+	border-bottom: solid .1em var(--color-text);
+
+	text-decoration: none;
+	font-family: var(--font-family);
+	font-size: 15px;
+	text-transform: capitalize;
 
 }
 
-article {
-	width: 100%;
-	height: 100%;
-}
 
-section article img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 3%;
-}
+/****************************************************************/
+/* Styling voor de header als de browser minimaal 38em breed is */
+/****************************************************************/
+@media (min-width:38em) {
+	header>button {
+		display: none;
 
-img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+	}
 
-}
+	nav {
+		position: static;
+		translate: unset;
+		padding: 0;
+		background: none;
+	}
 
-article:nth-child(5) {
-	grid-column: 1 / -1;
-	padding-bottom: 1em;
+	nav button {
+		display: none;
+
+	}
+
+	nav ul {
+		display: flex;
+		gap: 1em;
+
+	}
+
+	nav a {
+		flex-direction: column;
+		border: none;
+
+	}
+
+	header>a:last-of-type {
+		flex-direction: column;
+	}
 }

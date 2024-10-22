@@ -1,0 +1,221 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --color-text: #111;
+    --color-text-white: #fff;
+    --color-background: rgb(255, 255, 255);
+    --font-family: Poppins;
+    --button-color: #111;
+    --fontsize-button: .8em;
+    --swiper-2-color: #fff2f9;
+
+
+}
+
+/* SWIPER 1 SECTION 1*/
+section:nth-of-type(1) {
+    overflow: hidden;
+    display: grid;
+    /* grid-template-columns: 20px 1fr 5px; */
+
+}
+
+ul {
+    list-style: none;
+}
+
+section:nth-of-type(1) > ul {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    overflow-x: scroll;
+    /* grid-column: 2; */
+    gap: 10px;
+    scroll-behavior: smooth;
+    overflow: auto;
+
+}
+
+section:nth-of-type(1) > ul li{
+    display: grid;
+    grid-template-rows: 1fr max-content;
+}
+
+section:nth-of-type(1) > ul li h3 {
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 1;
+    justify-self: center;
+    align-self: end;
+}
+
+section:nth-of-type(1) > ul li img {
+    width: 25em;
+    height: auto;
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+section:nth-of-type(1) > ul li a{
+    font-family: var(--font-family);
+    font-size: var(--fontsize-button);
+    text-transform: uppercase;
+
+    color: var(--color-text-white);
+    background-color: var(--button-color);
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    z-index: 1;
+
+    margin: 1em;
+    justify-self: center;
+}
+
+section:nth-of-type(1) nav ul {
+    display:flex;
+    gap:1em;
+}
+
+.dot {
+    display:block;
+    padding: 5px;
+    background-color: darkgray;
+    border-radius: 25px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+/* SWIPER 2 SECTION 2 */
+section:nth-of-type(2) ul {
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+    display: flex;
+}
+
+section:nth-of-type(2) li {
+    display: flex;
+    justify-content: center;
+
+    font-size: 1em;
+    background: var(--swiper-2-color);
+
+    padding: 0.5em;
+    flex: 0 0 100%;
+
+}
+
+section:nth-of-type(2) li img {
+    margin-right: 1em;
+}
+
+section:nth-of-type(2) li p {
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+
+section:nth-of-type(2) img {
+    width: 1.8em;
+    height: 1.5em;
+}
+
+section li:nth-of-type(2) img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+section li:nth-of-type(3) img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* met de before en after elementen kan je deze lijnen maken. het before element is bij deze de lijn voor de heading en de lijn achter de heading is het. after element */
+h2:before,
+h2:after {
+    content: '';
+    /* moet erin staan anders gebeurt er niets. In de '' kan je eventueel ook in schrijven */
+    width: 100%;
+    border-bottom: solid 0.1em;
+    /* de lijn zelf */
+}
+
+section:nth-of-type(3) {}
+
+section:nth-of-type(3) ul {
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+    list-style: none;
+    display: flex;
+}
+
+section:nth-of-type(3) li {
+    display: flex;
+    justify-content: center;
+}
+
+
+section:nth-of-type(3) ul li img {
+    width: 15em;
+
+}
+
+section:nth-of-type(4) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 10em) 18em;
+    gap: 0.5em;
+    width: 100%;
+    max-width: 38em;
+
+}
+
+article {
+    width: 100%;
+    height: 100%;
+}
+
+section article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+article:nth-of-type(5) {
+    grid-column: 1 / -1;
+    padding-bottom: 1em;
+}
