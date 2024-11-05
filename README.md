@@ -57,10 +57,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  Er wordt netjes aangegeven waar je je bevindt, zoals in de navigatiebalk of in de footer.
-  Ze hebben veel list items gemaakt in de website en voor de titels veel level 3 headings
-  Linkjes bij images, buttons en tekst.
-  Wanneer je in een toolbar bent waar de producten worden weergegeven leest hij een hele tekst voor wat nogal verwarrend is.
+  - Er wordt netjes aangegeven waar je je bevindt, zoals in de navigatiebalk of in de footer.
+  - Ze hebben veel list items gemaakt in de website en voor de titels veel level 3 headings
+  - Linkjes bij images, buttons en tekst.
+  -  Wanneer je in een toolbar bent waar de producten worden weergegeven leest hij een hele tekst voor wat nogal verwarrend is.
 
 </details>
 
@@ -72,16 +72,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Korean-Skincare-Home-page1-Breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/Korean-Skincare-Product-page2-Breakdownschets.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
-
 
 
 
@@ -92,11 +88,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   Mijn vragen:
-  - Zou ik alles moeten maken van de gekozen paina's?
-  - Hoe zou ik de h3 titels met een streep moeten maken?
+  - Zou ik alles moeten maken van de gekozen pagina's?
+  - Hoe zou ik de h2 titels met een streep moeten maken?
   - Hoe zorg je ervoor dat wanneer je over een product plaatje hovered dat die verandert naar een ander product plaatje?
 
   ### Agenda voor meeting
