@@ -356,3 +356,28 @@ iframe{
     height:540px;
 }
 
+section:nth-of-type(9) h3{
+
+    text-transform: uppercase;
+    
+}
+
+section:nth-of-type(9) p{
+    font-size: 0.9em;
+    margin: 2em;
+}
+
+section:nth-of-type(9) a {
+
+  background-color: var(--button-color);
+  color: var(--color-text-white);
+  display: inline-block;          
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+section:nth-of-type(9) {
+    font-family: var(--font-family);
+    margin-bottom: 3em;
+    text-align: center;
+}

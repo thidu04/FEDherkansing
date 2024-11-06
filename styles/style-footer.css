@@ -1,5 +1,18 @@
 /*FOOTER*/
 
+:root {
+    --color-text: #111;
+    --color-text-white: #fff;
+    --color-background: rgb(255, 255, 255);
+    --font-family: Poppins;
+    --button-color: #111;
+    --fontsize-button: .8em;
+    --swiper-2-color: #fff2f9;
+
+
+}
+
+
 footer{
     margin-left: 1em;
 }
@@ -11,6 +24,8 @@ footer section:nth-of-type(1){
 
 footer section:nth-of-type(1) h2{
     font-family: var(--font-family);
+    text-transform: capitalize;
+    letter-spacing: .02em;
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -28,6 +43,7 @@ input{
         margin-bottom: 1em;
         font-family: var(--font-family);
         font-size: 0.9em;
+        border:none;
 }
 
 footer section:nth-of-type(1) button{
@@ -38,6 +54,7 @@ footer section:nth-of-type(1) button{
    background-color: black;
    font-family: var(--font-family);
    text-transform: uppercase;
+   border:none;
    
 
 }
@@ -46,16 +63,56 @@ background-color: rgb(246, 246, 246);
 }
 
 footer section:nth-of-type(2) ul{
-    margin: 0;
-    padding: 0;
-  
+    font-family: var(--font-family);
 }
 
 footer section:nth-of-type(2) ul li{
-
+margin-bottom: 1em;
   
 }
 
+footer section:nth-of-type(2) a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+footer section:nth-of-type(2) a:visited{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+
 footer section:nth-of-type(2) img{
     width: 40%;
+}
+
+/* Algemene styling voor details */
+details summary {
+    font-family: var(--font-family);
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    padding: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    list-style: none;
+
+    border-bottom: .08em solid black; 
+}
+
+
+/* Plus symbool toevoegen 
+Bron: ChatGPT */
+details summary::before {
+    content: "+"; /* Standaard is een plusje zichtbaar */
+    font-weight: 300;
+    position: absolute;
+   right: 0; /* Plusje gaat naar rechterkant*/
+    font-size: 1.5em;
+}
+
+/* Verandert naar min symbool als details open is */
+details[open] summary::before {
+    content: "-"; /* Verandert naar minnetje als het open is */
+    font-weight: 300;
 }

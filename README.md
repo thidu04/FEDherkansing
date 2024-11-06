@@ -90,6 +90,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  In deze week ging ik vooral de website bekijken die ik ga namaken en verbeteren (koreanskincare.nl). 
+
+
+Tijdens de less
+
   Mijn vragen:
   - Zou ik alles moeten maken van de gekozen pagina's?
   - Hoe zou ik de h2 titels met een streep moeten maken?
@@ -97,21 +102,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   Donderdag 19-09-2024
+Diya:
+- Hoe maak je de rating?
+- Verschillende tabs openen op dezelfde pagina, filter?
 
-  | Thi            | Keysha             | Diya         | Giulietta        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook n   | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+Thi:
+ - Zou ik alles moeten maken van de gekozen pagina's?
+  - Hoe zou ik de h2 titels met een streep moeten maken?
+  - Hoe zorg je ervoor dat wanneer je over een product plaatje hovered dat die verandert naar een ander product plaatje?
 
+Giulietta:
+- Hoe laat je bubbels komen uit de cursor?
+- Kun je nu nog veranderen van focus? van responsive naar surface plane?
+
+Keysha:
+- Hoe maak je verschillende tabs die je kunt openen op dezelfde pagina?
+- Hoe voeg je een tabel samen in carroussel?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Hier na afloop snel de uitkomsten van de meeting vastleggen:
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  -  Maak verschillende dingen van de pagina, herhalende dingen kan je weglaten.- Met h2::before{}. h2::after{} kun je de strepen maken voor de kopjes/titels.
+  - Hover image, transition, opacity- en animatie toevoegen.
+  - Zoeken naar bubbels animaties op internet om toe te voegen aan de cursor.
+  - Je kunt nog van focus veranderen, wel graag doorgeven.
+  - Hover werkt niet op telefoon, alleen met cursor.
+  - Grid maken voor je lijst of in je lijst
+  - Voor de carroussel kun je de site: gebruiken. (Student assistente keurt het goed)
+
+  We hebben het nagevraagd aan Sanne of we die carroussel konden gebruiken, maar die gebruikt wel een andere javascript library. Dit werd niet goedgekeurd door Sanne dus konden we die carroussel toch niet gebruiken.
 
 </details>
 
@@ -129,22 +148,36 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+Diya:
+- Hoe maak je de carroussel?
+- Ik heb wat problemen met nth-of-child, hoe fix ik dit?
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+Thi:
+- Hoe zet ik de navigatie buttons op de juiste plek?
+- Hoe zet ik het kruisje helemaal naar rechts?
+- Mijn img nav icons die willen niet goed op size hoe fix ik dit?
+
+Giulietta:
+- Hoe krijg ik de video goed in de achtergrond?
+- Ik heb veen classes en id's, mag dat?
+- Hoe maak je de nav sticky?
+
+Keysha:
+- Hoe verander je de kleur van een svg?
+- Hoe krijg ik de tweede nav balk?
+- Waarom is er aan de boven kant van mijn site een kleine pijl te zien?
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+- Kijk goed wat een link of button moet zijn op de site
+- Maak 2 navs, 1 voor hamburger menu en 1 voor de zoekbutton, login, winkelmand etc.
+- Gebruik justify-self: end; om de cross te verplaatsen op het einde (staat bij grid oefening 2)
+- Svg met filter:invert(1); om wit of zwart te krijgen voor een icoon
+- nth-of-type ipv nth of child hij telt dan beter op volgorde.
+- Probeer in inspect site met pijltool te kijken of er padding of margin zit om die onnodige witruimtes te verwijderen.
+- Haal de classes en ID's eruit, gebruik echt pseudoclasses.
 
 </details>
 
@@ -178,21 +211,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Diya: 
+  -  Hoe moet ik de tweede menu toevoegen
+  - Hoe moet ik de buttons stijlen
+  - Hoe haal ik de achtergrond eruit 
+
+Thi:
+- Tekst bij mijn plaatjes mag dat? of alles zelf maken?
+- Hoe maak ik de filter tabs in mijn hamburgernav en op mijn pagina's
+- De images in mijn collage bewegen mee wanneer je responsive 
+- Surface plane, mijn website heeft al veel animaties tellen die mee voor surface plane als ik die namaak of moet ik weer nieuwe toevoegen?
+
+Giulietta:
+- Hoe maak ik de producten netjes met prijs button en tekst?
+- Hoe laat ik die tekst springen naar beneden?
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Je mag geen tekst op de plaatjes, je moet ze zelf maken per plaatje. Handig als je goed bent in Photoshop om alle tekst weg te halen.
+  - Sybren zal codepen sturen voor de filterfunctie.
+  - De animaties die je namaakt van de originele site tellen mee voor de surface plane, zelf kun je altijd wat meer toevoegen om alle 5 dingen van de surfaceplane af te strepen.
+  - Gebruik display flex en flex wrap
+  - Afbeelding grijze filter over heen-> ::before (even video zoeken)
+  - order -1 gebruiken 
 </details>
 
 
@@ -234,9 +277,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
 
+Footer plus en min toevoegen bij het uitklapmenu:
 
-  1. bron 1
+
+  1. chatgpt.com:
+<img src="readme-images/ChatGPT-uitklapmenu-vraag" width="375px" alt="uitklapmenu footer vraag ">
+<img src="readme-images/ChatGPT-uitklapmenu-uitleg" width="375px" alt="uitklapmenu footer vraag ">
+<img src="readme-images/ChatGPT-uitklapmenu-antwoord" width="375px" alt="uitklapmenu footer vraag ">
+
   2. bron 2
-  3. ...
+  3. ..
 
 </details>
