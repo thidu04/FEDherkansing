@@ -281,9 +281,9 @@ Footer plus en min toevoegen bij het uitklapmenu:
 
 
   1. chatgpt.com:
-<img src="readme-images/ChatGPT-uitklapmenu-vraag" width="375px" alt="uitklapmenu footer vraag ">
-<img src="readme-images/ChatGPT-uitklapmenu-uitleg" width="375px" alt="uitklapmenu footer vraag ">
-<img src="readme-images/ChatGPT-uitklapmenu-antwoord" width="375px" alt="uitklapmenu footer vraag ">
+<img src="readme-images/ChatGPT-uitklapmenu-vraag.png" width="375px" alt="uitklapmenu footer vraag ">
+<img src="readme-images/ChatGPT-uitklapmenu-uitleg.png" width="375px" alt="uitklapmenu footer vraag ">
+<img src="readme-images/ChatGPT-uitklapmenu-antwoord.png" width="375px" alt="uitklapmenu footer vraag ">
 
   2. bron 2
   3. ..
