@@ -97,20 +97,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 Aan het begin van de pagina zie je een carroussel met verschillende posters, ik zie dat er tekst op elke poster en dat is niet gemaakt met html css, ik zal de tekst van de posters eruit moeten editen en zelf met html css verschillende stijlen qua lettertype zoeken en toepassen. 
 
- <img src="readme-images/Voorbeeld-carroussel.png" width="200px" alt="Nav van Korean Skincare site ">
+ <img src="readme-images/Voorbeeld-carroussel-home.png" width="200px" alt="Nav van Korean Skincare site ">
 
 Dit lijkt mij nogal een lastig stukje om te maken omdat het een carroussel is met images en tekst, buttons maar het heeft ook een filter functie en dot buttons onderaan om te navigeren. Wanneer je over een afbeelding hovert verandert hij van plaatje en het heeft een soort inzoom animatie. Ik zal in de komende voortgangsgesprekken hier vragen over stellen en research over doen.
 
-  <img src="readme-images/Voorbeeld-product-carroussel.png" width="200px" alt="Nav van Korean Skincare site ">
+  <img src="readme-images/Voorbeeld-producten-carroussel.png" width="200px" alt="Nav van Korean Skincare site ">
 
 De 5 plaatjes kan ik toepassen met grid, ik heb hierover ook in de lessen geoefendmet grid en zal dit toepassen op mijn site.
 
  <img src="readme-images/Voorbeeld-grid-images.png" width="200px" alt="Nav van Korean Skincare site ">
 
-
-
-
-Tijdens de less
 
   Mijn vragen:
   - Zou ik alles moeten maken van de gekozen pagina's?
