@@ -190,6 +190,8 @@ Daarnaast vond ik het handig om meerdere mapjes te maken voor images:, zodat ik 
 <img>
 
 
+
+
   ### Agenda voor meeting
 Diya:
 - Hoe maak je de carroussel?
@@ -246,15 +248,36 @@ Keysha:
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Dit is het voorbeeld van de officiële site van de footer: 
+  <img src="readme-images/Uitklapbare-footer-menu-voorbeeld.png" width="300px" alt="Meerdere image folders">
+<img>
+
 Voor de footer heb ik gebruik gemaakt van summary en details Op deze pagina heb ik gelezen hoe je het kan doen. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details De footer menu moet namelijk worden uitgeklapt. 
 
 Toen ben ik verder gegaan met de styling, want er moet een zwarte lijn onder elke kop en ook een plus/min icoon aan de rechterkant. Ik heb hiervoor hulp gevraagd aan chat gpt.
 
-<img src="readme-images/ChatGPT-uitklapmenu-vraag.png" width="400px" alt="Meerdere image folders">
+<img src="readme-images/ChatGPT-uitklapmenu-vraag.png" width="400px" alt="ChatGPT input">
 <img>
-<img src="readme-images/ChatGPT-uitklapmenu-uitleg.png" width="400px" alt="Meerdere image folders">
+<img src="readme-images/ChatGPT-uitklapmenu-uitleg.png" width="400px" alt="ChatGPT output uitleg">
 <img>
-<img src="readme-images/ChatGPT-uitklapmenu-antw.png" width="300px" alt="Meerdere image folders">
+<img src="readme-images/ChatGPT-uitklapmenu-antw.png" width="300px" alt="ChatGPT output code">
+<img>
+
+Ik ging daarna verder met de contact details onderaan voor whatsapp en email. Ik heb dat in dezelfde section gemaakt en het list items van gemaakt, zo kan ik het ook met flexbox stylen.
+
+Ik zat daarna wel met het probleem dat de link (a) allemaal een underline krijgen:
+
+<img src="readme-images/footer-uitklapmenu-probleem.png" width="300px" alt="Uitklap menu probleem met underline">
+<img>
+
+Dit komt doordat ik het in de code de ul niet specifiek heb genoemd voor alleen de contact detail maar het alle linkjes styled. Ik heb daarom de ul van de footermenu ook gespecificeerd in css. 
+
+<img src="readme-images/details-summary-section-specificeren.png" width="300px" alt="Details  neerzetten in css">
+<img>
+
+
+Nu is de footermenu klaar en ziet het er zo uit:
+<img src="readme-images/Footer-menu-gefixed.png" width="200px" alt="De footer problemen gefixt">
 <img>
 
 
