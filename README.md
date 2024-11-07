@@ -90,7 +90,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  In deze week ging ik vooral de website bekijken die ik ga namaken en verbeteren (koreanskincare.nl). 
+  In deze week ging ik vooral de website bekijken die ik ga namaken en verbeteren (koreanskincare.nl).
+  Ik zal gebruik maken van de site extract.pics om de meeste images uit de website te kunnen downloaden, die heb ik vorig jaar ook gebruikt. 
+
+  Homepagina:
+
+Aan het begin van de pagina zie je een carroussel met verschillende posters, ik zie dat er tekst op elke poster en dat is niet gemaakt met html css, ik zal de tekst van de posters eruit moeten editen en zelf met html css verschillende stijlen qua lettertype zoeken en toepassen. 
+
+ <img src="readme-images/Voorbeeld-carroussel.png" width="200px" alt="Nav van Korean Skincare site ">
+
+Dit lijkt mij nogal een lastig stukje om te maken omdat het een carroussel is met images en tekst, buttons maar het heeft ook een filter functie en dot buttons onderaan om te navigeren. Wanneer je over een afbeelding hovert verandert hij van plaatje en het heeft een soort inzoom animatie. Ik zal in de komende voortgangsgesprekken hier vragen over stellen en research over doen.
+
+  <img src="readme-images/Voorbeeld-product-carroussel.png" width="200px" alt="Nav van Korean Skincare site ">
+
+De 5 plaatjes kan ik toepassen met grid, ik heb hierover ook in de lessen geoefendmet grid en zal dit toepassen op mijn site.
+
+ <img src="readme-images/Voorbeeld-grid-images.png" width="200px" alt="Nav van Korean Skincare site ">
+
+
 
 
 Tijdens de less
@@ -101,7 +118,6 @@ Tijdens de less
   - Hoe zorg je ervoor dat wanneer je over een product plaatje hovered dat die verandert naar een ander product plaatje?
 
   ### Agenda voor meeting
-  Donderdag 19-09-2024
 Diya:
 - Hoe maak je de rating?
 - Verschillende tabs openen op dezelfde pagina, filter?
@@ -154,6 +170,7 @@ Ik verzamelde eerst alle iconen. Daarna ging ik de iconen op de goede grootte ma
 In de les heb ik ook geleerd dat je het met order de volgorde kunt veranderen, dit heb ik toegepast op de iconen en uiteindelijk is het gelukt.
 
 <img src="readme-images/Nav-oplossing.png" width="200px" alt="Nav oplossing css ">
+
 <img src="readme-images/Nav-eigen-site.png" width="400px" alt="Nav op eigen site ">
 
 Daarna ging ik verder met het hamburger menu. Wanneer je op de hamburger menu klikt schuift er een scherm uit met allemaal content waar je naartoe kunt navigeren. Ook zijn er soort filter buttons bovenaan. 
