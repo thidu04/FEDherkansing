@@ -250,7 +250,7 @@ Keysha:
 
   Dit is het voorbeeld van de officiële site van de footer: 
 
-  <img src="readme-images/Uitklapbare-footer-menu-voorbeeld.png" width="200px" alt="Voorbeeld footer uitklap menu">
+  <img src="readme-images/Uitklapbare-footer-menu-voorbeeld.png" width="300px" alt="Voorbeeld footer uitklap menu">
 <img>
 
 Voor de footer heb ik gebruik gemaakt van summary en details Op deze pagina heb ik gelezen hoe je het kan doen. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details De footer menu moet namelijk worden uitgeklapt. 
@@ -276,13 +276,14 @@ Dit komt doordat ik het in de code de ul niet specifiek heb genoemd voor alleen 
 <img src="readme-images/details-summary-section-specificeren.png" width="300px" alt="Details  neerzetten in css">
 <img>
 
+Ik heb ook een animatie toegevoegd voor de plusjes en minnetjes, ze draaien 360 graden als je eroverheen hovert, dit is een soort trigger voor de gebruikers om het menu uit te klappen. 
+Ik heb hiervoor gebruik gemaakt van de oefening die we in de les hadden gedaan: Codepen FED24/25 Animaties Oefening 1.
+
 
 Nu is de footermenu klaar en ziet het er zo uit:
 
-<img src="readme-images/Footer-menu-gefixed.png" width="200px" alt="De footer problemen gefixt">
+<img src="readme-images/Footer-menu-gefixed.png" width="300px" alt="De footer problemen gefixt">
 <img>
-
-
 
 
   ### Agenda voor meeting
@@ -331,11 +332,41 @@ Giulietta:
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
+  Ik heb veel geleerd tijdens de lessen, ik vond dat de lessen heel erg helpen met het maken van mijn website en er duidelijk word uitgelegd. Ik heb veel oefeningen ook toegepast op mijn site.
+  - Ik heb geleerd om het hamburger menu te maken en ook met javascript.
+  - Met grid werken voor de poster indeling van de tekst (Dit heb ik met Sanne gemaakt tijdens de laatste les)
+  - Met z index scroll de sliders horizontaal te laten scrollen 
+  - Details summary gebruiken om een uitklapmenu te maken.
+  - Met @keyframe animaties maken op een makkelijke manier
+
+  Ik ben heel tevreden met de footer, ik vind dat het er netjes uitziet en veel lijkt op de originele pagina. Ook vond ik het leuk om te maken vooral de animatie vind ik een leuke toevoeging. 
+
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+
+  Het is mij niet gelukt om alles af te maken voor de deadline. Wel heb ik geprobeerd om zo ver mogelijk te komen. Ik heb mij vooral gefocust op de eerste pagina, want veel dingen komen in de 2e pagina in terug. 
+
+  - De carroussel is ook nog niet gelukt om werkend te krijgen. Ik had met Sanne in de les de navigatie bolletjes op de juiste manier proberen te maken zodat hij naar slide naar elke poster, maar hij gaat alleen naar 1 poster als je erop drukt. Dit wil ik nog fixen. 
+
+  - De filteropties vind ik ook nog moeilijk om voor elkaar te krijgen, ik ga dit nog uitvogelen en hulp vragen aan studentenassistenten. 
+
+  - De filteroptie moet ik ook toepassen op mijn hamburger menu, daarom is die nog niet af. 
+
+  - De tekst op mijn posters moet ik ook nog toevoegen, dit zal ik nog doen.
+
+  - Surface plane onderwerpen heb ik nog niet toegepast, ik was vooral bezig met het namaken van de site. Ik heb wel een animatie toegepast, maar ik weet niet of dat al genoeg is voor 1 onderwerp van de surfaceplane. Wel heb ik al een idee welke dingen ik wil toevoegen, namelijk: 
+- [x] Animaties (plusicoon)
+- [ ] Werkend filterfunctie
+- [ ] Werkend zoekfunctie
+- [ ] Style/animate SVG icons
+- [ ] Iets met video?
+
+  Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. De meeste dingen staan er nu erin, maar ik wil nog wat uitleg en screenshots toevoegen om het meer compleet te maken.
+
+
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -355,14 +386,15 @@ Giulietta:
 
 
 Footer plus en min toevoegen bij het uitklapmenu:
+  1. Chatgpt.com:
 
-
-  1. chatgpt.com:
 <img src="readme-images/ChatGPT-uitklapmenu-vraag.png" width="375px" alt="uitklapmenu footer vraag ">
 <img src="readme-images/ChatGPT-uitklapmenu-uitleg.png" width="375px" alt="uitklapmenu footer vraag ">
 <img src="readme-images/ChatGPT-uitklapmenu-antw.png" width="375px" alt="uitklapmenu footer vraag ">
 
-  2. bron 2
-  3. ..
+  2. Codepen Anne-Kyra 
+  3. Codepen Sybren Loos
+  4. Codepen FED24/25 Animaties Oefening 1 (animaties plus icoon)
+  5. 
 
 </details>
