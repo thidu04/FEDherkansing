@@ -13,106 +13,237 @@
 }
 
 
-footer{
+footer {
     margin-left: 1em;
 }
 
-footer section:nth-of-type(1){
-    background-image: linear-gradient(to bottom right, rgb(253, 242, 174) , rgb(255, 211, 251));
-    
+footer section:nth-of-type(1) {
+    background-image: linear-gradient(to bottom right, rgb(253, 242, 174), rgb(255, 211, 251));
+    padding: 1em;
+    padding-bottom: 4em;
+  
+
 }
 
-footer section:nth-of-type(1) h2{
+/*NEWSLETTER*/
+
+footer section:nth-of-type(1) h2 {
     font-family: var(--font-family);
     text-transform: capitalize;
+    font-size: 1.2em;
     letter-spacing: .02em;
     display: flex;
     justify-content: center;
     text-transform: uppercase;
 }
 
-footer section:nth-of-type(1) p{
+footer section:nth-of-type(1) p {
     font-family: var(--font-family);
     font-size: 0.9em;
     text-align: center;
 }
 
-input{
-        width: 100%;
-        height: 40%;
-        margin-bottom: 1em;
-        font-family: var(--font-family);
-        font-size: 0.9em;
-        border:none;
-}
-
-footer section:nth-of-type(1) button{
+input {
     width: 100%;
     height: 40%;
-   margin-bottom: 2em;
-   color: white;
-   background-color: black;
-   font-family: var(--font-family);
-   text-transform: uppercase;
-   border:none;
-   
-
-}
-footer section:nth-of-type(2){
-background-color: rgb(246, 246, 246);
-}
-
-footer section:nth-of-type(2) ul{
+    margin-bottom: 1em;
     font-family: var(--font-family);
+    font-size: 0.9em;
+    border: none;
 }
 
-footer section:nth-of-type(2) ul li{
-margin-bottom: 1em;
-  
+
+footer section:nth-of-type(1) button {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 2em;
+    color: white;
+    background-color: black;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    border: none;
+
+
 }
 
-footer section:nth-of-type(2) a{
+/*UITKLAP FOOTER CONTENT*/
+
+footer section:nth-of-type(2) {
+    background-color: rgb(246, 246, 246);
+    padding-top: 2em; 
+    padding-bottom: 3em;
+}
+
+footer section:nth-of-type(2) ul {
+    font-family: var(--font-family);
+   
+}
+
+footer section:nth-of-type(2) details ul li {
+    margin: 1em;
+    margin-left: 2em;
+
+}
+
+footer section:nth-of-type(2) details ul li a {
+    color: var(--color-text);
     text-decoration: none;
+    font-size: .9em;
+}
+
+
+footer section:nth-of-type(2) details ul li  a:visited {
     color: var(--color-text);
 }
 
-footer section:nth-of-type(2) a:visited{
-    text-decoration: none;
-    color: var(--color-text);
-}
-
-
-footer section:nth-of-type(2) img{
-    width: 40%;
-}
-
-/* Algemene styling voor details */
 details summary {
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 700;
+    letter-spacing: .02em;
     position: relative;
     cursor: pointer;
+
     padding: 1em;
     margin-right: 1em;
     margin-left: 1em;
-    list-style: none;
 
-    border-bottom: .08em solid black; 
+    list-style: none;
+    text-transform: uppercase;
+
+    border-bottom: .08em solid black;
+}
+
+
+/*KOREAN SKINCARE LOGO*/
+
+footer section:nth-of-type(2) img {
+    width: 40%;
 }
 
 
 /* Plus symbool toevoegen 
 Bron: ChatGPT */
 details summary::before {
-    content: "+"; /* Standaard is een plusje zichtbaar */
+    content: "+";
+    /* Standaard is een plusje zichtbaar */
     font-weight: 300;
     position: absolute;
-   right: 0; /* Plusje gaat naar rechterkant*/
+    right: 0;
+    /* Plusje gaat naar rechterkant*/
     font-size: 1.5em;
 }
 
-/* Verandert naar min symbool als details open is */
+
 details[open] summary::before {
-    content: "-"; /* Verandert naar minnetje als het open is */
+    content: "-";
     font-weight: 300;
+}
+
+
+ /* ANIMATIE PLUS-MIN SYMBOLEN 
+ Bron: Codepen FED24/25 Animaties Oefening 1*/
+
+@keyframes plus-rotate {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 180deg;
+    }
+}
+
+details summary:hover::before {
+    animation-name: plus-rotate;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+ /* CONTACT LOGO & LINKJES */
+
+footer section:nth-of-type(2) ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+footer section:nth-of-type(2) ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+
+footer section:nth-of-type(2) ul li img {
+    width: 1em;
+    height: auto;
+    margin-left: 1em;
+}
+
+
+footer section:nth-of-type(2) > ul > li > p,
+footer section:nth-of-type(2) > ul > li > a {
+    margin: 0;
+    padding: 0;
+    font-size: .7em;
+}
+
+footer section:nth-of-type(2) > ul > li > a{
+    text-decoration: underline;
+}
+
+
+footer section:nth-of-type(2) > ul > li > a:visited{
+    color: var(--color-text);
+}
+
+footer section:nth-of-type(2) ul li p {
+    margin-left: 1em;
+}
+
+
+/*SOCIAL MEDIA ICONEN*/
+
+footer section:nth-of-type(2)>ul:nth-of-type(2) li {
+    display: inline-block;
+}
+
+footer section:nth-of-type(2)>ul:nth-of-type(2) li img {
+    width: 2em;
+    height: 1.9em;
+    border: .05em solid #000000;
+    border-radius: 50%;
+    padding: 0.4em;
+    background-color: #ffffff;
+    display: block;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+  /* BETAALMIDDELEN */
+
+footer section:nth-of-type(3) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+  /* COPYRIGHT */
+
+footer section:nth-of-type(3) p {
+    font-family: var(--font-family);
+    font-size: .8em;
+    text-align: center;
+
+    margin: 2em;
+}
+
+footer section:nth-of-type(3) img {
+    width: 3em;
+
 }

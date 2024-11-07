@@ -144,7 +144,24 @@ Keysha:
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+ Als eerst wilde ik beginnen aan de navigatie.
+<img src="readme-images/Nav-voorbeeld.png" width="375px" alt="Nav van Korean Skincare site ">
+Ik verzamelde eerst alle iconen. Daarna ging ik de iconen op de goede grootte maken in css. Toen ging ik met flexbox werken om het naast elkaar te krijgen en te laten centreren. De Logo heb ik als h1 gemaakt. Ik had wel wat moeite met in de juiste volgorde zetten. Doordat ik de logo als h1 heb gemaakt, begint hij als eerst op de pagina maar hij moet in het midden staan van de nav iconen, dus dit was even uitvogelen.
+
+In de les heb ik ook geleerd dat je het met order de volgorde kunt veranderen, dit heb ik toegepast op de iconen en uiteindelijk is het gelukt.
+
+<img src="readme-images/Nav-oplossing.png" width="375px" alt="Nav oplossing css ">
+<img src="readme-images/Nav-eigen-site.png" width="375px" alt="Nav op eigen site ">
+
+Daarna ging ik verder met het hamburger menu. Wanneer je op de hamburger menu klikt schuift er een scherm uit met allemaal content waar je naartoe kunt navigeren. Ook zijn er soort filter buttons bovenaan. 
+<img src="readme-images/Hamburger-menu-content-voorbeeld.png" width="375px" alt="Voorbeeld van hamburger menu ">
+
+Het hamburger menu heb ik al eerder gemaakt in FED 24-25 Blok 1 Oefening JS 3-stap oefening 2 in de les. Dit heb ik ook meegenomen voor mijn site. Die oefening ging ook wel goed, dus kon ik makkelijk toepassen in mijn site. 
+
+Ik had een probleem dat de andere elementen in. mijn main overlappen met de schuifscherm van de hamburger menu. Dit heb ik in de les nagevraagd aan mijn medestudent Diya, zij heeft geleerd van de studentenassistent dat je het kan fixen door de z-index hoog te zetten bijv hier op 1000. Het probleem is toen opgelost.
+<img src="readme-images/Hamburger-menu-content.png" width="375px" alt="Hamburger menu op mijn site">
+<img>
 
 
   ### Agenda voor meeting
@@ -283,7 +300,7 @@ Footer plus en min toevoegen bij het uitklapmenu:
   1. chatgpt.com:
 <img src="readme-images/ChatGPT-uitklapmenu-vraag.png" width="375px" alt="uitklapmenu footer vraag ">
 <img src="readme-images/ChatGPT-uitklapmenu-uitleg.png" width="375px" alt="uitklapmenu footer vraag ">
-<img src="readme-images/ChatGPT-uitklapmenu-antwoord.png" width="375px" alt="uitklapmenu footer vraag ">
+<img src="readme-images/ChatGPT-uitklapmenu-antw.png" width="375px" alt="uitklapmenu footer vraag ">
 
   2. bron 2
   3. ..
