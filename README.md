@@ -154,7 +154,7 @@ Ik verzamelde eerst alle iconen. Daarna ging ik de iconen op de goede grootte ma
 In de les heb ik ook geleerd dat je het met order de volgorde kunt veranderen, dit heb ik toegepast op de iconen en uiteindelijk is het gelukt.
 
 <img src="readme-images/Nav-oplossing.png" width="200px" alt="Nav oplossing css ">
-<img src="readme-images/Nav-eigen-site.png" width="200px" alt="Nav op eigen site ">
+<img src="readme-images/Nav-eigen-site.png" width="400px" alt="Nav op eigen site ">
 
 Daarna ging ik verder met het hamburger menu. Wanneer je op de hamburger menu klikt schuift er een scherm uit met allemaal content waar je naartoe kunt navigeren. Ook zijn er soort filter buttons bovenaan. 
 
