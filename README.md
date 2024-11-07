@@ -148,8 +148,6 @@ Keysha:
 
 
 
-
-
 ## Voortgang 2 (week 3)
 
 <details>
@@ -178,6 +176,17 @@ Het hamburger menu heb ik al eerder gemaakt in FED 24-25 Blok 1 Oefening JS 3-st
 Ik had een probleem dat de andere elementen in. mijn main overlappen met de schuifscherm van de hamburger menu. Dit heb ik in de les nagevraagd aan mijn medestudent Diya, zij heeft geleerd van de studentenassistent dat je het kan fixen door de z-index hoog te zetten bijv hier op 1000. Het probleem is toen opgelost.
 
 <img src="readme-images/Hamburger-menu-content.png" width="200px" alt="Hamburger menu op mijn site">
+<img>
+
+Ik heb meer style sheets gemaakt om het zo geordend te houden en makkelijk dingen kan teruginden en aanpassen: 
+
+
+<img src="readme-images/Meerdere-style.png" width="200px" alt="Meerdere stylesheets">
+<img>
+
+Daarnaast vond ik het handig om meerdere mapjes te maken voor images:, zodat ik makkelijker kan vinden waar de images staan om die te benoemen in mijn html code.
+
+<img src="readme-images/Meer-image-folders.png" width="200px" alt="Meerdere image folders">
 <img>
 
 
@@ -217,8 +226,6 @@ Keysha:
 
 
 
-
-
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
@@ -231,8 +238,6 @@ Keysha:
 
 
 
-
-
 ## Voortgang 3 (week 4)
 
 <details>
@@ -240,6 +245,19 @@ Keysha:
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+Voor de footer heb ik gebruik gemaakt van summary en details Op deze pagina heb ik gelezen hoe je het kan doen. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details De footer menu moet namelijk worden uitgeklapt. 
+
+Toen ben ik verder gegaan met de styling, want er moet een zwarte lijn onder elke kop en ook een plus/min icoon aan de rechterkant. Ik heb hiervoor hulp gevraagd aan chat gpt.
+
+<img src="readme-images/ChatGPT-uitklapmenu-vraag.png" width="200px" alt="Meerdere image folders">
+<img>
+<img src="readme-images/ChatGPT-uitklapmenu-uitleg.png" width="200px" alt="Meerdere image folders">
+<img>
+<img src="readme-images/ChatGPT-uitklapmenu-antw.png" width="200px" alt="Meerdere image folders">
+<img>
+
+
 
 
   ### Agenda voor meeting
