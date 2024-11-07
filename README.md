@@ -40,10 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepage van Korean Skincare:  
+
   <img src="readme-images/home-koreanskincare.png" width="100px" alt="De home pagina van de Korean Skincare website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Een product pagina van Korean skincare:
+
   <img src="readme-images/product-koreanskincare.png" width="100px" alt="De product pagina van de Anua foaming cleanser">
  
 </details>
@@ -72,9 +74,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
+
   <img src="readme-images/Korean-Skincare-Home-page1-Breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
+
   <img src="readme-images/Korean-Skincare-Product-page2-Breakdownschets.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
@@ -283,6 +287,21 @@ Ik heb hiervoor gebruik gemaakt van de oefening die we in de les hadden gedaan: 
 Nu is de footermenu klaar en ziet het er zo uit:
 
 <img src="readme-images/Footer-menu-gefixed.png" width="300px" alt="De footer problemen gefixt">
+<img>
+
+Ik heb een probleem met 2 images van de productmerken. De 2 plaatjes die zien er ingedeukt uit terwijl de andere wel goed op grootte te zien zijn.
+
+<img src="readme-images/Images-brands-probleem.png" width="300px" alt="Probleem met 2 images">
+<img>
+
+Dit heb ik opgelost door in de code height: auto te zetten, dit zorgt ervoor dat de hoogte van alle afbeeldingen juist zijn ingesteld.
+
+<img src="readme-images/Brands-oplossing.png" width="300px" alt="Oplossing in de code voor de 2 images">
+<img>
+
+Nu is het opgelost en hebben die afbeeldingen ook de juiste grootte gekregen:
+
+<img src="readme-images/Brands-gefixt.png" width="300px" alt="Resultaat van de 2 images">
 <img>
 
 

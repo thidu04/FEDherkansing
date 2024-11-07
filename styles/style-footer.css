@@ -17,15 +17,19 @@ footer {
     margin-left: 1em;
 }
 
+footer h2{
+    display: none;
+  }
+
 footer section:nth-of-type(1) {
     background-image: linear-gradient(to bottom right, rgb(253, 242, 174), rgb(255, 211, 251));
     padding: 1em;
     padding-bottom: 4em;
-  
-
 }
 
+/************/
 /*NEWSLETTER*/
+/************/
 
 footer section:nth-of-type(1) h2 {
     font-family: var(--font-family);
@@ -66,7 +70,9 @@ footer section:nth-of-type(1) button {
 
 }
 
+/***********************/
 /*UITKLAP FOOTER CONTENT*/
+/***********************/
 
 footer section:nth-of-type(2) {
     background-color: rgb(246, 246, 246);
@@ -76,13 +82,11 @@ footer section:nth-of-type(2) {
 
 footer section:nth-of-type(2) ul {
     font-family: var(--font-family);
-   
 }
 
 footer section:nth-of-type(2) details ul li {
     margin: 1em;
     margin-left: 2em;
-
 }
 
 footer section:nth-of-type(2) details ul li a {
@@ -113,8 +117,9 @@ details summary {
     border-bottom: .08em solid black;
 }
 
-
+/***********************/
 /*KOREAN SKINCARE LOGO*/
+/***********************/
 
 footer section:nth-of-type(2) img {
     width: 40%;
@@ -125,12 +130,10 @@ footer section:nth-of-type(2) img {
 Bron: ChatGPT */
 details summary::before {
     content: "+";
-    /* Standaard is een plusje zichtbaar */
     font-weight: 300;
+    font-size: 1.5em;
     position: absolute;
     right: 0;
-    /* Plusje gaat naar rechterkant*/
-    font-size: 1.5em;
 }
 
 
@@ -139,9 +142,11 @@ details[open] summary::before {
     font-weight: 300;
 }
 
-
+/*****************************/
  /* ANIMATIE PLUS-MIN SYMBOLEN 
  Bron: Codepen FED24/25 Animaties Oefening 1*/
+ /****************************/
+
 
 @keyframes plus-rotate {
     0% {
@@ -160,7 +165,9 @@ details summary:hover::before {
 
 }
 
+/***********************/
  /* CONTACT LOGO & LINKJES */
+/***********************/
 
 footer section:nth-of-type(2) ul {
     list-style: none;
@@ -204,8 +211,9 @@ footer section:nth-of-type(2) ul li p {
     margin-left: 1em;
 }
 
-
+/***********************/
 /*SOCIAL MEDIA ICONEN*/
+/***********************/
 
 footer section:nth-of-type(2)>ul:nth-of-type(2) li {
     display: inline-block;
@@ -223,7 +231,9 @@ footer section:nth-of-type(2)>ul:nth-of-type(2) li img {
     cursor: pointer;
 }
 
+/***********************/
   /* BETAALMIDDELEN */
+/***********************/
 
 footer section:nth-of-type(3) {
     display: flex;
@@ -233,7 +243,9 @@ footer section:nth-of-type(3) {
     padding-bottom: 1em;
 }
 
+/***********************/
   /* COPYRIGHT */
+/***********************/
 
 footer section:nth-of-type(3) p {
     font-family: var(--font-family);

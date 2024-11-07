@@ -43,7 +43,15 @@ main h2:after {
     /* de lijn zelf */
 }
 
-/* SWIPER 1 SECTION 1*/
+/* 1e h2 invisible maken */
+section:nth-of-type(1) h2{
+    display: none;
+}
+
+/**********************/
+/* SECTION 1 SWIPER 1*/
+/**********************/
+
 section:nth-of-type(1) {
     overflow: hidden;
     display: grid;
@@ -118,13 +126,20 @@ main section:nth-of-type(1) nav ul {
     border-radius: 25px;
 }
 
-/* SWIPER 2 SECTION 2 */
+/**********************/
+/* SECTION 2 SWIPER 2 */
+/**********************/
+section:nth-of-type(2) h2{
+    display: none;
+}
+
 main section:nth-of-type(2) ul {
     margin: 0;
     padding: 0;
     overflow-x: scroll;
     display: flex;
 }
+
 
 main section:nth-of-type(2) li {
     display: flex;
@@ -163,9 +178,13 @@ main section li:nth-of-type(3) img {
     height: 1.5em;
 }
 
+/**************/
+/* SECTION 3*/
+/**************/
 
-
-
+section:nth-of-type(3) h2{
+    display: none;
+}
 
 
 main section:nth-of-type(3) ul {
@@ -184,13 +203,19 @@ main section:nth-of-type(3) li {
 
 main section:nth-of-type(3) ul li img {
     width: 15em;
+    height: auto;
 
 }
-
-  /* Products list (nog in progress)
+/******************/
+  /* PRODUCTS LIST (nog in progress)
   Bron: Codepen studentenassistent Sybren Loos*/
+  /******************/
 
-  
+  section:nth-of-type(5) h2{
+    display: none;
+}
+
+
   /* Label styling (for hero filters) */
   label {
     display: inline-block; /* Makes the label act like a block, but still align horizontally */
@@ -222,7 +247,6 @@ main section:nth-of-type(3) ul li img {
   }
   
 
-  
   /* Styling for hero images inside the list items */
   main section:nth-of-type(5) li img {
     width: 100px; /* Sets the width of hero images to 100px */
@@ -257,17 +281,19 @@ main section:nth-of-type(3) ul li img {
   }
 
 
-  
+/********************/
 /*BESTE DEALS POSTER*/
+/********************/
 
 main section:nth-of-type(6) img{
 width: 100%;
 height: auto;
 }
 
-
-/* SECTION 7 */
- /* Styling for the unordered list of heroes */
+/**************/
+/* SECTION 7 
+ Styling for the unordered list */
+/**************/
 
  main section:nth-of-type(7) a{
     margin: 1em;
@@ -317,8 +343,9 @@ main section:nth-of-type(7) li {
   }
   
 
-
+/**************/
 /*GRID IMAGES*/
+/**************/
 
 main section:nth-of-type(8) {
     display: grid;
@@ -354,14 +381,19 @@ article:nth-of-type(5) {
     padding-bottom: 1em;
 }
 
+/*****************************/
 /*KOREAN SKINCARE QUIZ VIDEO*/
+/*****************************/
 
 iframe{
     width:100%;
     height:540px;
 }
 
+
+/**************************/
 /*SECTION 9 SKINCARE QUIZ*/
+/**************************/
 
 section:nth-of-type(9) h3{
     text-transform: uppercase;
