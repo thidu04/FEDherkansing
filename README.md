@@ -186,7 +186,7 @@ Ik heb meer style sheets gemaakt om het zo geordend te houden en makkelijk dinge
 
 Daarnaast vond ik het handig om meerdere mapjes te maken voor images:, zodat ik makkelijker kan vinden waar de images staan om die te benoemen in mijn html code.
 
-<img src="readme-images/Meer-image-folders.png" width="200px" alt="Meerdere image folders">
+<img src="readme-images/Meer-images-folders.png" width="200px" alt="Meerdere image folders">
 <img>
 
 
@@ -250,11 +250,11 @@ Voor de footer heb ik gebruik gemaakt van summary en details Op deze pagina heb 
 
 Toen ben ik verder gegaan met de styling, want er moet een zwarte lijn onder elke kop en ook een plus/min icoon aan de rechterkant. Ik heb hiervoor hulp gevraagd aan chat gpt.
 
-<img src="readme-images/ChatGPT-uitklapmenu-vraag.png" width="200px" alt="Meerdere image folders">
+<img src="readme-images/ChatGPT-uitklapmenu-vraag.png" width="400px" alt="Meerdere image folders">
 <img>
-<img src="readme-images/ChatGPT-uitklapmenu-uitleg.png" width="200px" alt="Meerdere image folders">
+<img src="readme-images/ChatGPT-uitklapmenu-uitleg.png" width="400px" alt="Meerdere image folders">
 <img>
-<img src="readme-images/ChatGPT-uitklapmenu-antw.png" width="200px" alt="Meerdere image folders">
+<img src="readme-images/ChatGPT-uitklapmenu-antw.png" width="300px" alt="Meerdere image folders">
 <img>
 
 
