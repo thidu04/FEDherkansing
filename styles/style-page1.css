@@ -29,7 +29,7 @@ main h2 {
     text-transform: uppercase;
     white-space: nowrap;
     line-height: 1em;
-    padding: 0.2em 0;  
+    padding: 0.2em 0;
 }
 
 /* met de before en after elementen kan je deze lijnen maken. het before element is bij deze de lijn voor de heading en de lijn achter de heading is het. after element 
@@ -44,7 +44,7 @@ main h2:after {
 }
 
 /* 1e h2 invisible maken */
-section:nth-of-type(1) h2{
+section:nth-of-type(1) h2 {
     display: none;
 }
 
@@ -62,7 +62,7 @@ ul {
     list-style: none;
 }
 
-main section:nth-of-type(1) > ul {
+main section:nth-of-type(1)>ul {
     padding: 0;
     margin: 0;
 
@@ -73,13 +73,13 @@ main section:nth-of-type(1) > ul {
     overflow: auto;
 }
 
-main section:nth-of-type(1) > ul li{
+main section:nth-of-type(1)>ul li {
     display: grid;
     grid-template-rows: 1fr max-content;
 }
 
-main section:nth-of-type(1) > ul li h3 {
-    grid-column-start:1;
+main section:nth-of-type(1)>ul li h3 {
+    grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
@@ -88,23 +88,23 @@ main section:nth-of-type(1) > ul li h3 {
     align-self: end;
 }
 
-main section:nth-of-type(1) > ul li img {
+main section:nth-of-type(1)>ul li img {
     width: 25em;
     height: auto;
-    grid-column-start:1;
+    grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-main section:nth-of-type(1) > ul li a{
+main section:nth-of-type(1)>ul li a {
     font-family: var(--font-family);
     font-size: var(--fontsize-button);
     text-transform: uppercase;
 
     color: var(--color-text-white);
     background-color: var(--button-color);
-    grid-column-start:1;
+    grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
@@ -115,12 +115,12 @@ main section:nth-of-type(1) > ul li a{
 }
 
 main section:nth-of-type(1) nav ul {
-    display:flex;
-    gap:1em;
+    display: flex;
+    gap: 1em;
 }
 
 .dot {
-    display:block;
+    display: block;
     padding: 5px;
     background-color: darkgray;
     border-radius: 25px;
@@ -129,7 +129,7 @@ main section:nth-of-type(1) nav ul {
 /**********************/
 /* SECTION 2 SWIPER 2 */
 /**********************/
-section:nth-of-type(2) h2{
+section:nth-of-type(2) h2 {
     display: none;
 }
 
@@ -182,7 +182,7 @@ main section li:nth-of-type(3) img {
 /* SECTION 3*/
 /**************/
 
-section:nth-of-type(3) h2{
+section:nth-of-type(3) h2 {
     display: none;
 }
 
@@ -206,88 +206,114 @@ main section:nth-of-type(3) ul li img {
     height: auto;
 
 }
-/******************/
-  /* PRODUCTS LIST (nog in progress)
-  Bron: Codepen studentenassistent Sybren Loos*/
-  /******************/
 
-  section:nth-of-type(5) h2{
+/******************/
+/* PRODUCTS LIST (nog in progress)
+  Bron: Codepen studentenassistent Sybren Loos*/
+/******************/
+
+section:nth-of-type(5) h2 {
     display: none;
 }
 
 
-  /* Label styling (for hero filters) */
-  label {
-    display: inline-block; /* Makes the label act like a block, but still align horizontally */
+/* Label styling (for hero filters) */
+label {
+    display: inline-block;
+    /* Makes the label act like a block, but still align horizontally */
     padding-left: 1em;
-    margin-right: 1rem; /* Adds space between the labels */
-    font-size: 1.2rem; /* Slightly larger font for the labels */
-  }
+    margin-right: 1rem;
+    /* Adds space between the labels */
+    font-size: 1.2rem;
+    /* Slightly larger font for the labels */
+}
 
 
-  /* Styling for the unordered list of heroes */
-  main section:nth-of-type(5) ul{
-    list-style-type: none; /* Removes default bullet points from the list */
-    padding: 0; /* Removes default padding */
-    display: flex; /* Displays the list items (heroes) in a flexible row */
-    justify-content: flex-start; /* Aligns filtered hero list items to the left */
-    overflow-x: scroll;
-  }
-  
-  /* Individual list item (hero card) styling */
-  main section:nth-of-type(5) li {
-    background-color: white; /* White background for each hero card */
-    border: 1px solid #ddd; /* Light gray border around each card */
-    
-    padding: 1rem; /* Adds space inside the card */
-    margin: 1rem; /* Adds space around each card */
-    width: 200px; /* Sets a fixed width for the cards */
-    text-align: center; /* Centers the text and content inside each card */
-    
-  }
-  
-
-  /* Styling for hero images inside the list items */
-  main section:nth-of-type(5) li img {
-    width: 100px; /* Sets the width of hero images to 100px */
-    height: auto; /* Keeps the aspect ratio of the image */
-    margin-bottom: 1rem; /* Adds space below the hero image */
-  }
-  
-  /* Link styling inside hero cards */
-  main section:nth-of-type(5) a {
-    text-decoration: none; /* Removes underline from links */
-    color: #333; /* Sets link text color to dark gray */
-  }
-  
-
-  /* Styling for screen reader-only text */
-  .visually-hidden {
-    position: absolute; /* Absolutely positions the element to remove it from the normal document flow */
-    width: 1px; /* Shrinks width to 1px */
-    height: 1px; /* Shrinks height to 1px */
-    margin: -1px; /* Negative margin hides it off-screen */
+/* Styling for the unordered list of heroes */
+main section:nth-of-type(5) ul {
+    list-style-type: none;
+    /* Removes default bullet points from the list */
     padding: 0;
-    overflow: hidden; /* Ensures it's invisible */
-    clip: rect(0, 0, 0, 0); /* Clips the element to be fully invisible */
+    /* Removes default padding */
+    display: flex;
+    /* Displays the list items (heroes) in a flexible row */
+    justify-content: flex-start;
+    /* Aligns filtered hero list items to the left */
+    overflow-x: scroll;
+}
+
+/* Individual list item (hero card) styling */
+main section:nth-of-type(5) li {
+    background-color: white;
+    /* White background for each hero card */
+    border: 1px solid #ddd;
+    /* Light gray border around each card */
+
+    padding: 1rem;
+    /* Adds space inside the card */
+    margin: 1rem;
+    /* Adds space around each card */
+    width: 200px;
+    /* Sets a fixed width for the cards */
+    text-align: center;
+    /* Centers the text and content inside each card */
+
+}
+
+
+/* Styling for hero images inside the list items */
+main section:nth-of-type(5) li img {
+    width: 100px;
+    /* Sets the width of hero images to 100px */
+    height: auto;
+    /* Keeps the aspect ratio of the image */
+    margin-bottom: 1rem;
+    /* Adds space below the hero image */
+}
+
+/* Link styling inside hero cards */
+main section:nth-of-type(5) a {
+    text-decoration: none;
+    /* Removes underline from links */
+    color: #333;
+    /* Sets link text color to dark gray */
+}
+
+
+/* Styling for screen reader-only text */
+.visually-hidden {
+    position: absolute;
+    /* Absolutely positions the element to remove it from the normal document flow */
+    width: 1px;
+    /* Shrinks width to 1px */
+    height: 1px;
+    /* Shrinks height to 1px */
+    margin: -1px;
+    /* Negative margin hides it off-screen */
+    padding: 0;
+    overflow: hidden;
+    /* Ensures it's invisible */
+    clip: rect(0, 0, 0, 0);
+    /* Clips the element to be fully invisible */
     border: 0;
-  }
-  
-  /* CSS for filtering heroes: hides non-matching hero types */
-  html:has([value="Tank"]:checked) li:not(.tank),
-  html:has([value="Support"]:checked) li:not(.support),
-  html:has([value="dps"]:checked) li:not(.dps) {
-    display: none; /* Hides all heroes that don't match the selected class */
-  }
+}
+
+/* CSS for filtering heroes: hides non-matching hero types */
+html:has([value="Tank"]:checked) li:not(.tank),
+html:has([value="Support"]:checked) li:not(.support),
+html:has([value="dps"]:checked) li:not(.dps) {
+    display: none;
+    /* Hides all heroes that don't match the selected class */
+}
 
 
 /********************/
 /*BESTE DEALS POSTER*/
 /********************/
 
-main section:nth-of-type(6) img{
-width: 100%;
-height: auto;
+main section:nth-of-type(6) img {
+    width: 100%;
+    height: auto;
 }
 
 /**************/
@@ -295,53 +321,70 @@ height: auto;
  Styling for the unordered list */
 /**************/
 
- main section:nth-of-type(7) a{
+main section:nth-of-type(7) a {
     margin: 1em;
 
- }
- main section:nth-of-type(7) ul{
-    list-style-type: none; /* Removes default bullet points from the list */
-    padding: 0; /* Removes default padding */
-    display: flex; /* Displays the list items (heroes) in a flexible row */
-    justify-content: flex-start; /* Aligns filtered hero list items to the left */
-    overflow-x: scroll;
-  }
-  
-  /* Individual list item (hero card) styling */
-main section:nth-of-type(7) li {
-    background-color: white; /* White background for each hero card */
-    border: 1px solid #ddd; /* Light gray border around each card */
-    
-    padding: 1rem; /* Adds space inside the card */
-    margin: 1rem; /* Adds space around each card */
-    width: 200px; /* Sets a fixed width for the cards */
-    text-align: center; /* Centers the text and content inside each card */
-    
-  }
-  
+}
 
-  
-  /* Styling for hero images inside the list items */
-  main section:nth-of-type(7) li img {
-    width: 100px; /* Sets the width of hero images to 100px */
-    height: auto; /* Keeps the aspect ratio of the image */
-    margin-bottom: 1rem; /* Adds space below the hero image */
-  }
-  
-  /* Link styling inside hero cards */
-  main section:nth-of-type(7) a {
-    text-decoration: none; /* Removes underline from links */
-    color: #333; /* Sets link text color to dark gray */
-  }
-  
-  
-  /* CSS for filtering heroes: hides non-matching hero types */
-  html:has([value="Tank"]:checked) li:not(.tank),
-  html:has([value="Support"]:checked) li:not(.support),
-  html:has([value="dps"]:checked) li:not(.dps) {
-    display: none; /* Hides all heroes that don't match the selected class */
-  }
-  
+main section:nth-of-type(7) ul {
+    list-style-type: none;
+    /* Removes default bullet points from the list */
+    padding: 0;
+    /* Removes default padding */
+    display: flex;
+    /* Displays the list items (heroes) in a flexible row */
+    justify-content: flex-start;
+    /* Aligns filtered hero list items to the left */
+    overflow-x: scroll;
+}
+
+/* Individual list item (hero card) styling */
+main section:nth-of-type(7) li {
+    background-color: white;
+    /* White background for each hero card */
+    border: 1px solid #ddd;
+    /* Light gray border around each card */
+
+    padding: 1rem;
+    /* Adds space inside the card */
+    margin: 1rem;
+    /* Adds space around each card */
+    width: 200px;
+    /* Sets a fixed width for the cards */
+    text-align: center;
+    /* Centers the text and content inside each card */
+
+}
+
+
+
+/* Styling for hero images inside the list items */
+main section:nth-of-type(7) li img {
+    width: 100px;
+    /* Sets the width of hero images to 100px */
+    height: auto;
+    /* Keeps the aspect ratio of the image */
+    margin-bottom: 1rem;
+    /* Adds space below the hero image */
+}
+
+/* Link styling inside hero cards */
+main section:nth-of-type(7) a {
+    text-decoration: none;
+    /* Removes underline from links */
+    color: #333;
+    /* Sets link text color to dark gray */
+}
+
+
+/* CSS for filtering heroes: hides non-matching hero types */
+html:has([value="Tank"]:checked) li:not(.tank),
+html:has([value="Support"]:checked) li:not(.support),
+html:has([value="dps"]:checked) li:not(.dps) {
+    display: none;
+    /* Hides all heroes that don't match the selected class */
+}
+
 
 /**************/
 /*GRID IMAGES*/
@@ -385,9 +428,9 @@ article:nth-of-type(5) {
 /*KOREAN SKINCARE QUIZ VIDEO*/
 /*****************************/
 
-iframe{
-    width:100%;
-    height:540px;
+iframe {
+    width: 100%;
+    height: 540px;
 }
 
 
@@ -395,23 +438,23 @@ iframe{
 /*SECTION 9 SKINCARE QUIZ*/
 /**************************/
 
-section:nth-of-type(9) h3{
+section:nth-of-type(9) h3 {
     text-transform: uppercase;
-    
+
 }
 
-section:nth-of-type(9) p{
+section:nth-of-type(9) p {
     font-size: 0.9em;
     margin: 2em;
 }
 
 section:nth-of-type(9) a {
 
-  background-color: var(--button-color);
-  color: var(--color-text-white);
-  display: inline-block;          
-  padding: 1em 2em;
-  text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--color-text-white);
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
 }
 
 section:nth-of-type(9) {

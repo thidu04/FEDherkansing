@@ -17,9 +17,9 @@ footer {
     margin-left: 1em;
 }
 
-footer h2{
+footer h2 {
     display: none;
-  }
+}
 
 footer section:nth-of-type(1) {
     background-image: linear-gradient(to bottom right, rgb(253, 242, 174), rgb(255, 211, 251));
@@ -76,7 +76,7 @@ footer section:nth-of-type(1) button {
 
 footer section:nth-of-type(2) {
     background-color: rgb(246, 246, 246);
-    padding-top: 2em; 
+    padding-top: 2em;
     padding-bottom: 3em;
 }
 
@@ -96,7 +96,7 @@ footer section:nth-of-type(2) details ul li a {
 }
 
 
-footer section:nth-of-type(2) details ul li  a:visited {
+footer section:nth-of-type(2) details ul li a:visited {
     color: var(--color-text);
 }
 
@@ -143,9 +143,9 @@ details[open] summary::before {
 }
 
 /*****************************/
- /* ANIMATIE PLUS-MIN SYMBOLEN 
+/* ANIMATIE PLUS-MIN SYMBOLEN 
  Bron: Codepen FED24/25 Animaties Oefening 1*/
- /****************************/
+/****************************/
 
 
 @keyframes plus-rotate {
@@ -166,7 +166,7 @@ details summary:hover::before {
 }
 
 /***********************/
- /* CONTACT LOGO & LINKJES */
+/* CONTACT LOGO & LINKJES */
 /***********************/
 
 footer section:nth-of-type(2) ul {
@@ -191,19 +191,19 @@ footer section:nth-of-type(2) ul li img {
 }
 
 
-footer section:nth-of-type(2) > ul > li > p,
-footer section:nth-of-type(2) > ul > li > a {
+footer section:nth-of-type(2)>ul>li>p,
+footer section:nth-of-type(2)>ul>li>a {
     margin: 0;
     padding: 0;
     font-size: .7em;
 }
 
-footer section:nth-of-type(2) > ul > li > a{
+footer section:nth-of-type(2)>ul>li>a {
     text-decoration: underline;
 }
 
 
-footer section:nth-of-type(2) > ul > li > a:visited{
+footer section:nth-of-type(2)>ul>li>a:visited {
     color: var(--color-text);
 }
 
@@ -232,7 +232,7 @@ footer section:nth-of-type(2)>ul:nth-of-type(2) li img {
 }
 
 /***********************/
-  /* BETAALMIDDELEN */
+/* BETAALMIDDELEN */
 /***********************/
 
 footer section:nth-of-type(3) {
@@ -244,7 +244,7 @@ footer section:nth-of-type(3) {
 }
 
 /***********************/
-  /* COPYRIGHT */
+/* COPYRIGHT */
 /***********************/
 
 footer section:nth-of-type(3) p {

@@ -345,11 +345,12 @@ Giulietta:
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+
 
   Ik heb veel geleerd tijdens de lessen, ik vond dat de lessen heel erg helpen met het maken van mijn website en er duidelijk word uitgelegd. Ik heb veel oefeningen ook toegepast op mijn site.
   - Ik heb geleerd om het hamburger menu te maken en ook met javascript.
@@ -360,11 +361,8 @@ Giulietta:
 
   Ik ben heel tevreden met de footer, ik vind dat het er netjes uitziet en veel lijkt op de originele pagina. Ook vond ik het leuk om te maken vooral de animatie vind ik een leuke toevoeging. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
 
   Het is mij niet gelukt om alles af te maken voor de deadline. Wel heb ik geprobeerd om zo ver mogelijk te komen. Ik heb mij vooral gefocust op de eerste pagina, want veel dingen komen in de 2e pagina in terug. 
 
@@ -383,11 +381,12 @@ Giulietta:
 - [ ] Style/animate SVG icons
 - [ ] Iets met video?
 
+Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn nav 1, ik had blijkbaar geen nav open geplaatst maar wel nav sluit. Dit zal ik later moeten aanpassen, want dit moet ik in css met pseudoclasses weer aangeven aangezien ik 2 navs heb.
+
+  <img src="readme-images/Foutmelding-nav1.png" width="375px" alt="nav 1 foutmelding">
+
   Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. De meeste dingen staan er nu erin, maar ik wil nog wat uitleg en screenshots toevoegen om het meer compleet te maken.
 
-
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -411,9 +410,11 @@ Footer plus en min toevoegen bij het uitklapmenu:
 <img src="readme-images/ChatGPT-uitklapmenu-uitleg.png" width="375px" alt="uitklapmenu footer vraag ">
 <img src="readme-images/ChatGPT-uitklapmenu-antw.png" width="375px" alt="uitklapmenu footer vraag ">
 
-  2. Codepen Anne-Kyra 
-  3. Codepen Sybren Loos
-  4. Codepen FED24/25 Animaties Oefening 1 (animaties plus icoon)
-  5. 
+  2. Codepen van Anne-Kyra Strik voor de h2 lijnen styling: https://codepen.io/the_legends_of_panda/pen/rNXBEPK?editors=1100
+  3. Codepen van Sybren Loos voor de filterfunctie: https://codepen.io/thi-dn/pen/LYwdygO?editors=1100
+  4. Codepen van Sybren Loos voor de carroussel: https://codepen.io/Sybje123456789/pen/VwoMaxZ
+  5. Codepen FED24/25 Animaties Oefening 1 (animaties plus icoon): https://codepen.io/shooft/pen/wvLjNPo?editors=1100
+  6. Codepen FED 24-25 Blok 1 Oefening JS 3-stap oefening 2 
+  7. Footer uitklapmenu maken met details summary: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
 
 </details>
