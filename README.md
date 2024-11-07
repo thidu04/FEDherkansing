@@ -246,10 +246,11 @@ Keysha:
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   Dit is het voorbeeld van de officiële site van de footer: 
-  <img src="readme-images/Uitklapbare-footer-menu-voorbeeld.png" width="300px" alt="Meerdere image folders">
+
+  <img src="readme-images/Uitklapbare-footer-menu-voorbeeld.png" width="200px" alt="Voorbeeld footer uitklap menu">
 <img>
 
 Voor de footer heb ik gebruik gemaakt van summary en details Op deze pagina heb ik gelezen hoe je het kan doen. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details De footer menu moet namelijk worden uitgeklapt. 
@@ -277,6 +278,7 @@ Dit komt doordat ik het in de code de ul niet specifiek heb genoemd voor alleen 
 
 
 Nu is de footermenu klaar en ziet het er zo uit:
+
 <img src="readme-images/Footer-menu-gefixed.png" width="200px" alt="De footer problemen gefixt">
 <img>
 
