@@ -346,7 +346,7 @@ Giulietta:
 
   ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/fullscreenshot-home1.png" width="300px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
