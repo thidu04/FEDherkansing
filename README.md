@@ -304,6 +304,28 @@ Nu is het opgelost en hebben die afbeeldingen ook de juiste grootte gekregen:
 <img src="readme-images/Brands-gefixt.png" width="300px" alt="Resultaat van de 2 images">
 <img>
 
+Om de filter werkend te krijgen heb ik tijdens de 4e voortgangsgesprek hulp gekregen van Sanne. Tijdens het gesprek heeft hij een codepen gemaakt en de stappen uitgelegd. Het zag er veel makkelijker uit dan ik dacht!
+
+Thuis ging ik de filter in mijn site in elkaar zetten en ben ik tegen een aantal obstakels tegengekomen. 
+
+<img src="readme-images/label-padding-werkt-niet.png" width="300px" alt="Probleem met de padding van de label">
+<img>
+
+Er zit teveel ruimte aan de onderkant van de button, de tekst zit daardoor niet precies in het midden. In de codepen die Sanne had gemaakt zit hij wel gewoon goed in het midden. Ik heb verschillende manieren geprobeerd en gekeken in mijn code of ik iets heb gedaan bij andere stukken tekst, maar ik zie niet precies waar het door komt. Dit gebeurd nadat ik de "appearance:none;" neerzet, zodat de radiobutton wordt verwijderd. 
+
+Ik heb ook gekeken of het aan mijn font ligt, maar dat is niet zo.. Ook heb ik gevraagd aan CHATGPT of die in mijn code kan kijken waar het aan ligt, maar de suggesties die hij geeft en toe pas in mijn code blijken het niet op te lossen. 
+
+<img src="readme-images/images-niet-zelfde-width.png" width="400px" alt="Probleem met de images die niet dezelfde grootte hebben">
+<img>
+
+Een aantal afbeeldingen zijn heel erg klein en de rest hebben wel dezelfde grootte, ik dacht dat het aan het bestand lag, maar als ik die verwijder dan gaan opeens de andere afbeeldingen kleiner worden. Dus ging ik het bewerken in de css code.
+
+Uiteindelijk heb ik het opgelost door ook de "li" op te noemen dus niet alleen "ul img", maar "ul li img".
+
+<img src="readme-images/images-zelfde-width-oplossing-code.png" width="300px" alt="Code oplossing om dezelfde width te krijgen">
+<img>
+
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -355,7 +377,7 @@ Giulietta:
   Ik heb veel geleerd tijdens de lessen, ik vond dat de lessen heel erg helpen met het maken van mijn website en er duidelijk word uitgelegd. Ik heb veel oefeningen ook toegepast op mijn site.
   - Ik heb geleerd om het hamburger menu te maken en ook met javascript.
   - Met grid werken voor de poster indeling van de tekst (Dit heb ik met Sanne gemaakt tijdens de laatste les)
-  - Met z index scroll de sliders horizontaal te laten scrollen 
+  - Met x-overflow scroll de sliders horizontaal te laten scrollen 
   - Details summary gebruiken om een uitklapmenu te maken.
   - Met @keyframe animaties maken op een makkelijke manier
 
