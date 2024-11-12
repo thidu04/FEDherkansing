@@ -304,6 +304,13 @@ Nu is het opgelost en hebben die afbeeldingen ook de juiste grootte gekregen:
 <img src="readme-images/Brands-gefixt.png" width="300px" alt="Resultaat van de 2 images">
 <img>
 
+## Voortgang 4 (week 6)
+
+<details>
+  <summary>uitwerken voor het herkansingmoment<sup>e</sup> voortgang</summary>
+
+  ### Stand van zaken
+
 Om de filter werkend te krijgen heb ik tijdens de 4e voortgangsgesprek hulp gekregen van Sanne. Tijdens het gesprek heeft hij een codepen gemaakt en de stappen uitgelegd. Het zag er veel makkelijker uit dan ik dacht!
 
 Thuis ging ik de filter in mijn site in elkaar zetten en ben ik tegen een aantal obstakels tegengekomen. 
@@ -318,7 +325,7 @@ Ik heb ook gekeken of het aan mijn font ligt, maar dat is niet zo.. Ook heb ik g
 <img src="readme-images/images-niet-zelfde-width.png" width="400px" alt="Probleem met de images die niet dezelfde grootte hebben">
 <img>
 
-Een aantal afbeeldingen zijn heel erg klein en de rest hebben wel dezelfde grootte, ik dacht dat het aan het bestand lag, maar als ik die verwijder dan gaan opeens de andere afbeeldingen kleiner worden. Dus ging ik het bewerken in de css code.
+Een aantal afbeeldingen zijn heel erg klein (zie linksonder in de afbeelding) en de rest hebben wel dezelfde grootte, ik dacht dat het aan het bestand lag, maar als ik die verwijder dan gaan opeens de andere afbeeldingen kleiner worden. Dus ging ik het bewerken in de css code.
 
 Uiteindelijk heb ik het opgelost door ook de "li" op te noemen dus niet alleen "ul img", maar "ul li img".
 
