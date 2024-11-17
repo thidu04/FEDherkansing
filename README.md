@@ -337,7 +337,7 @@ Giulietta:
 ## Voorbereiden herkansing (week 6)
 
 <details>
-  <summary>uitwerken voor het herkansingmoment<sup>e</sup>Herkansingmoment voorbereiden</summary>
+  <summary>uitwerken voor het herkansingmoment</summary>
 
   ### Stand van zaken
 
@@ -355,6 +355,15 @@ Ik heb ook gekeken of het aan mijn font ligt, maar dat is niet zo.. Ook heb ik g
 <img src="readme-images/images-niet-zelfde-width.png" width="400px" alt="Probleem met de images die niet dezelfde grootte hebben">
 <img>
 
+Uiteindelijk heeft Keysha mij kunnen helpen om dat op te lossen. Ze zei dat je het met height kunt fixen. Met flex kun je het tekst daarna precies in het midden krijgen. 
+
+
+<img src="readme-images/Oplossing-label-height-code.png" width="300px" alt="Oplossing label height code">
+<img>
+
+<img src="readme-images/Resultaat-label-height-oplossing.png" width="300px" alt="Oplossing label height afbeelding">
+<img>
+
 Een aantal afbeeldingen zijn heel erg klein (zie linksonder in de afbeelding) en de rest hebben wel dezelfde grootte, ik dacht dat het aan het bestand lag, maar als ik die verwijder dan gaan opeens de andere afbeeldingen kleiner worden. Dus ging ik het bewerken in de css code.
 
 Uiteindelijk heb ik het opgelost door ook de "li" op te noemen dus niet alleen "ul img", maar "ul li img".
@@ -362,9 +371,21 @@ Uiteindelijk heb ik het opgelost door ook de "li" op te noemen dus niet alleen "
 <img src="readme-images/images-zelfde-width-oplossing-code.png" width="300px" alt="Code oplossing om dezelfde width te krijgen">
 <img>
 
+Uit de les FED 24-25 - Blok 1 - Oefening positioneren heb ik geleerd hoe je tekst kunt positioneren op een plaatje. Dit heb ik toegepast op de button om hem onderaan het plaatje te krijgen en de tekst "nieuw" rechtsboven.
+
+<img src="readme-images/product-plaatje-positionering.png" width="300px" alt="Code oplossing om dezelfde width te krijgen">
+<img>
+
+De officiele website heeft de navigatiedots OP de posters staan, wat het onoverzichtelijk en rommelig maakt. Ik wil de navigatiedots onder de posters hebben. 
+
+<img src="readme-images/navigatiedots-fout" width="300px" alt="navigatiedots die over de poster staan">
+<img>
+
+
+
 </details>
 
-## Eindgesprek (Herkansing week 7)
+## Eindgesprek herkansing (week 7)
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
@@ -418,6 +439,7 @@ Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn 
 
 
 
+
 ## Bronnenlijst
 
 <details open>
@@ -441,5 +463,7 @@ Footer plus en min toevoegen bij het uitklapmenu:
   5. Codepen FED24/25 Animaties Oefening 1 (animaties plus icoon): https://codepen.io/shooft/pen/wvLjNPo?editors=1100
   6. Codepen FED 24-25 Blok 1 Oefening JS 3-stap oefening 2 
   7. Footer uitklapmenu maken met details summary: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+  8. Font omzetten naar woff bestand https://www.fontsquirrel.com/tools/webfont-generator
+  9. FED 24/25 - Positioneren - Oefening 1 
 
 </details>

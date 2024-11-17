@@ -2,20 +2,17 @@
 /* menu openen de MENU button */
 /******************************/
 
-/* JOUW CODE HIER - stap 4 */
+/* Stap 1: zoek de menu-button op en sla die op in een variabele */
+var openButton = document.querySelector("header > nav:first-of-type button:nth-of-type(1)");
 
-// stap 1: zoek de menu-button op en sla die op in een variabele
-var openButton = document.querySelector("header > button");
-
-// stap 2: laat de menu-button luisteren naar kliks en voer dan een functie uit
+/* Stap 2: laat de menu-button luisteren naar kliks en voer dan een functie uit */
 openButton.onclick = openMenu;
 
-// stap 3: voeg in de functie een class toe aan de nav
-function openMenu(){
-  var deNav = document.querySelector("nav");
+/* Stap 3: voeg in de functie een class toe aan de tweede nav */
+function openMenu() {
+  var deNav = document.querySelector("header > nav:last-of-type"); // Selecteer de laatste nav (hamburgermenu)
   deNav.classList.add("toonMenu");
 }
-
 
 
 
@@ -23,16 +20,14 @@ function openMenu(){
 /* menu sluiten met de sluit button */
 /************************************/
 
-/* JOUW CODE HIER - stap 5 */
+/* Stap 1: zoek de sluit-knop in de tweede nav */
+var sluitButton = document.querySelector("header > nav:last-of-type button");
 
-// stap 1 - zoek sluiten button op
-var sluitButton = document.querySelector("nav button");
-
-// stap 2 - laat die button luisteren naar kliks
+/* Stap 2: laat die button luisteren naar kliks */
 sluitButton.onclick = sluitMenu;
 
-// stap 3 - in de functie verwijder de class van de nav
-function sluitMenu(){
-  var deNav = document.querySelector("nav");
+/* Stap 3: in de functie verwijder de class van de tweede nav */
+function sluitMenu() {
+  var deNav = document.querySelector("header > nav:last-of-type"); // Selecteer de laatste nav (hamburgermenu)
   deNav.classList.remove("toonMenu");
 }

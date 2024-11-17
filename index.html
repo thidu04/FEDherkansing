@@ -12,50 +12,129 @@
 	<link href="styles/style-page1.css" rel="stylesheet">
 	<link href="styles/style-footer.css" rel="stylesheet">
 	<link rel="icon" type="image/png+xml" href="images/favicon-kskincare.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-		rel="stylesheet">
 </head>
 
 
 
 <body>
 	<header>
-		<h1><img src="images/logo-kskincare.png" alt="logo Korean Skincare"></h1>
-
-		<!-- Hamburgermenu open -->
-		<button aria-hidden="true"><img src="images/hamburger-icon.png" alt="hamburger icon" />
-		</button>
+		<h1>Korean Skincare homepagina</h1>
 
 		<!-- NAV 1 -->
 		<!-- Ik moet wat aanpassen in de code over de nav1, zie: README ### Dit was lastig/Is niet gelukt: -->
-		<button>
-			<img src="images/search-icon.svg" alt="search icon">
-		</button>
-
-		<button>
-			<img src="images/profile-icon.svg" alt="profile icon">
-		</button>
-
-		<button>
-			<img src="images/cart-icon.svg" alt="cart icon">
-		</button>
-
-		<!-- Hamburgermenu sluiten -->
 		<nav>
+			<!-- Hamburgermenu open -->
+			<button aria-hidden="true"><img src="images/hamburger-icon.png" alt="hamburger icon" />
+			</button>
+
+			<button>
+				<img src="images/search-icon.svg" alt="search icon">
+			</button>
+			<button>
+				<img src="images/logo-kskincare.png" alt="logo Korean Skincare">
+			</button>
+			<button>
+				<img src="images/profile-icon.svg" alt="profile icon">
+			</button>
+
+			<button>
+				<img src="images/cart-icon.svg" alt="cart icon">
+			</button>
+		</nav>
+		<!-- NAV 2 Content in hamburgermenu -->
+
+		<nav>
+			<form>
+				<label>
+					<input type="radio" name="new" value="menu">Menu
+				</label>
+				<label>
+					<input type="radio" name="new" value="brands">Brands
+				</label>
+				<label>
+					<input type="radio" name="new" value="support">Support
+				</label>
+			</form>
+
 			<button aria-hidden="true"><img src="images/cross-icon.svg" alt="cross icon" />
 			</button>
-			<!-- NAV 2 Content in hamburgermenu -->
-			<ul>
+			<!-- Hamburgermenu sluiten -->
+
+			<ul class="menu">
 				<li><a href="#"> Sales</a></li>
 				<li><a href="#"> Nieuw</a></li>
 				<li><a href="#"> Skincare</a></li>
+				<li><a href="#"> Haar & Lichaam</a></li>
+				<li><a href="#"> Make-Up & Tools</a></li>
 				<li><a href="#"> Skin Concerns</a></li>
 				<li><a href="#"> Discover</a></li>
-				<li><a href="#"> Haar & Lichaam</a></li>
+				<li><a href="#"> Brands</a></li>
+				<li><a href="#"> Sets & Boxes</a></li>
+				<li><a href="#"> Gift Cards</a></li>
+				<li><a href="#"> Blog</a></li>
+				<li><a href="#"> Win Review Van De Maand</a></li>
+			</ul>
 
+			<ul class="brands">
+				<li><a href="#"> 9wishes</a></li>
+				<li><a href="#"> Abib</a></li>
+				<li><a href="#"> About Me</a></li>
+				<li><a href="#"> Acwell</a></li>
+				<li><a href="#"> Amuse</a></li>
+				<li><a href="#"> Anua</a></li>
+				<li><a href="#"> Apieu</a></li>
+				<li><a href="#"> Brands</a></li>
+				<li><a href="#"> Aromatica</a></li>
+				<li><a href="#"> Atrue</a></li>
+				<li><a href="#"> Banila Co</a></li>
+				<li><a href="#"> Barr Cosmetics</a></li>
+			</ul>
+
+			<ul class="support">
+				<li><a href="#"> Inloggen</a></li>
+				<li><a href="#"> Mijn Account</a></li>
+				<li><a href="#"> Skincare</a></li>
+				<li><a href="#"> KS Glowie Club</a></li>
+				<li><a href="#"> Verlanglijstje</a></li>
+				<li><a href="#"> Winkelmandje</a></li>
+				<li><a href="#"> Bestelhistorie</a></li>
+				<li><a href="#"> Verzending & Levering</a></li>
+				<li><a href="#"> Affiliate Programma</a></li>
+				<li><a href="#"> Skincare Quiz</a></li>
+				<li><a href="#"> App</a></li>
+				<li><a href="#"> Over Ons</a></li>
+				<li><a href="#"> Contacteer Ons</a></li>
+				<li><a href="#"> Veelgestelde vragen</a></li>
+			</ul>
+			<h2>Language</h2>
+			<ul>
+				<li><img src="images/flags-currency/engeland.svg" alt="">
+					<a href="#"> EN</a>
+				</li>
+				<li><img src="images/flags-currency/nederland.svg" alt="">
+					<a href="#"> NL</a>
+				</li>
+				<li><img src="images/flags-currency/duitsland.svg" alt="">
+					<a href="#"> DE</a>
+				</li>
+				<li><img src="images/flags-currency/frankrijk.svg" alt="">
+					<a href="#"> FR</a>
+				</li>
+			</ul>
+			<h2>Currency</h2>
+			<ul>
+				<li><img src="images/flags-currency/euro.svg" alt="">
+					<a href="#"> EUR</a>
+				</li>
+				<li><img src="images/flags-currency/pond.svg" alt="">
+					<a href="#"> GBP</a>
+				</li>
+				<li><img src="images/flags-currency/chf.svg" alt="">
+					<a href="#"> CHF</a>
+				</li>
+				<li><img src="images/flags-currency/dollar.svg" alt="">
+					<a href="#"> USD</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
@@ -65,7 +144,7 @@
 			<h2>Naam</h2>
 			<ul>
 				<li id="een">
-					<h3>beschrijving</h3>
+					<h3>Beschrijving</h3>
 					<img src="images/advent-calender-slide1.jpg" alt="Advent Calender poster">
 					<a>Pre-order now</a>
 				</li>
@@ -161,92 +240,177 @@
 			<h2>Nieuwe producten</h2>
 
 			<form>
-			<label>
-				<input type="radio" value="nieuw" name="Nieuwe producten" checked>
-				Alles
-			</label>
+				<label>
+					<input type="radio" value="nieuw" name="Nieuwe producten" checked>
+					Alles
+				</label>
 
-			<label>
-				<input type="radio" value="cleansers" name="Nieuwe producten">
-				Cleansers
-			</label>
+				<label>
+					<input type="radio" value="cleansers" name="Nieuwe producten">
+					Cleansers
+				</label>
 
-			<label>
-				<input type="radio" value="moisturizers" name="Nieuwe producten">
-				Moisturizers
-			</label>
+				<label>
+					<input type="radio" value="moisturizers" name="Nieuwe producten">
+					Moisturizers
+				</label>
 
-			<label>
-				<input type="radio" value="facemasks" name="Nieuwe producten">
-				Face Masks
-			</label>
+				<label>
+					<input type="radio" value="facemasks" name="Nieuwe producten">
+					Face Masks
+				</label>
 
-			<label>
-				<input type="radio" value="sunscreens" name="Nieuwe producten">
-				Sunscreens
-			</label>
+				<label>
+					<input type="radio" value="sunscreens" name="Nieuwe producten">
+					Sunscreens
+				</label>
 
-			<label>
-				<input type="radio" value="serums" name="Nieuwe producten">
-				Serums
-			</label>
-		</form>
+				<label>
+					<input type="radio" value="serums" name="Nieuwe producten">
+					Serums
+				</label>
+			</form>
 			<!-- Unordered list to products, each 'li' element corresponds to a products-->
 			<ul>
 				<li class="cleansers">
 					<img src="images/products-filter/skinlab-cleanser.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Skin & Lab</h3>
+					<p>Hybarrier Hyaluronic Capsule Cleanser</p>
+					<p>€17.95</p>
 				</li>
 				<li class="cleansers">
 					<img src="images/products-filter/clearcode-superfruit-cleanser.webp" alt="" />
-
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Purito SEOUL</h3>
+					<p>Clear Code Superfruit Cleanser</p>
+					<p>€17.95</p>
 				</li>
 				<li class="cleansers">
 					<img src="images/products-filter/jumiso-pore-cleansing-oil.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Jumiso</h3>
+					<p>Gentle Pore Clearing Cleansing Oil</p>
+					<p>€22.95</p>
 				</li>
 				<li class="cleansers">
 					<img src="images/products-filter/clean-it-zero-cleansing-balm.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Banila co</h3>
+					<p>Clean It Zero Cleansing Balm Brightening</p>
+					<p>€21.95</p>
+
 				</li>
 				<li class="cleansers">
 					<img src="images/products-filter/wishtrend-foaming-wash.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>By Wishtrend</h3>
+					<p>Green Tea & Enzyme Milky Foaming Wash</p>
+					<p>€17.95</p>
 				</li>
 				<li class="moisturizers">
 					<img src="images/products-filter/skinlab-cream.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Skin & Lab</h3>
+					<p>Hybarrier Hyaluronic Moisturizer</p>
+					<p>€27.95</p>
 				</li>
 				<li class="moisturizers">
 					<img src="images/products-filter/needly-cream.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Needly</h3>
+					<p>Hydrating Moisture Crossbarrier Cream</p>
+					<p>€31.95</p>
 				</li>
 				<li class="moisturizers">
 					<img src="images/products-filter/skin1004-cream.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>SKIN1004</h3>
+					<p>Madagascar Centella Tea-Trica B5 Cream</p>
+					<p>€19.95</p>
 				</li>
 				<li class="facemasks">
 					<img src="images/products-filter/isntree-mugwort-powder.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Isntree</h3>
+					<p>Mugwort Calming Powder Wash</p>
+					<p>€15.95</p>
 				</li>
 				<li class="facemasks">
 					<img src="images/products-filter/marymay-mask.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Mary & May</h3>
+					<p>Rose Hyaluronic Hydra Wash Off Pack</p>
+					<p>€20.95</p>
 				</li>
 				<li class="facemasks">
 					<img src="images/products-filter/tea-tree-mask.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Dr.CeuracleL</h3>
+					<p>Tea Tree Purifine Soothing Mask</p>
+					<p>€2.95</p>
 				</li>
 				<li class="serums">
 					<img src="images/products-filter/dr-althea-serum.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Dr.Althea</h3>
+					<p>Vegan Vitamin C Boosting Serum</p>
+					<p>€22.95</p>
 				</li>
 				<li class="serums">
 					<img src="images/products-filter/anua-serum.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Anua</h3>
+					<p>7 Rice Ceramide hydrating Barrier Serum</p>
+					<p>€24.95</p>
 				</li>
 				<li class="serums">
 					<img src="images/products-filter/bywishtrend-serum.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>By Wishtrend</h3>
+					<p>Blue Oasis Aloe Hydrating Serum</p>
+					<p>€26.95</p>
 				</li>
 				<li class="sunscreens">
 					<img src="images/products-filter/skinlab-sunscreen.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Skin & Lab</h3>
+					<p>Hybarrier Fresh Sun Lotion SPF50+ PA++++</p>
+					<p>€21.95</p>
 				</li>
 				<li class="sunscreens">
 					<img src="images/products-filter/pyunkang-yul-suncreenstick.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Pyunkang Yul</h3>
+					<p>Lightweight Airy Protection Sun Stick</p>
+					<p>€19.95</p>
 				</li>
 				<li class="sunscreens">
 					<img src="images/products-filter/jumiso-sunscreen.webp" alt="" />
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Jumiso</h3>
+					<p>Awe-Sun Airy-fi Moisturizer with Sunscreen SPF</p>
+					<p>€14.95</p>
 				</li>
 			</ul>
-				<!--
+			<!--
 			<nav>
 				<ul>
 					<li>
@@ -281,40 +445,49 @@
 		<section>
 			<h2>Bestsellers</h2>
 			<a href="#">Bekijk alles</a>
-			<!-- Unordered list to display heroes, each 'li' element corresponds to a hero -->
-	
-				<form>
-				<label>
-					<input type="radio" value="Nieuw" name="Nieuwe producten" checked>
-					Nieuw
-				</label>
-	
-				<label>
-					<input type="radio" value="Cleansers" name="Nieuwe producten">
-					Cleansers
-				</label>
-	
-				<label>
-					<input type="radio" value="Moisturizers" name="Nieuwe producten">
-					Moisturizers
-				</label>
-	
-				<label>
-					<input type="radio" value="Face Masks" name="Nieuwe producten">
-					Face Masks
-				</label>
-	
-				<label>
-					<input type="radio" value="Sunscreens" name="Nieuwe producten">
-					Sunscreens
-				</label>
-	
-				<label>
-					<input type="radio" value="Serums" name="Nieuwe producten">
-					Serums
-				</label>
-			</form>
-			</section>
+			<!-- Unordered list to products, each 'li' element corresponds to a products-->
+			<ul>
+				<li class="cleansers">
+					<img src="images/products-filter/skinlab-cleanser.webp" alt="" />
+					<button>In winkelmandje</button>
+					<h3>Skin & Lab</h3>
+					<p>Hybarrier Hyaluronic Capsule Cleanser</p>
+					<p>€17.95</p>
+				</li>
+				<li class="cleansers">
+					<img src="images/products-filter/clearcode-superfruit-cleanser.webp" alt="" />
+
+					<button>In winkelmandje</button>
+					<h3>Purito SEOUL</h3>
+					<p>Clear Code Superfruit Cleanser</p>
+					<p>€17.95</p>
+				</li>
+				<li class="cleansers">
+					<img src="images/products-filter/jumiso-pore-cleansing-oil.webp" alt="" />
+
+					<button>In winkelmandje</button>
+					<h3>Jumiso</h3>
+					<p>Gentle Pore Clearing Cleansing Oil</p>
+					<p>€22.95</p>
+				</li>
+				<li class="cleansers">
+					<img src="images/products-filter/clean-it-zero-cleansing-balm.webp" alt="" />
+
+					<button>In winkelmandje</button>
+					<h3>Banila co</h3>
+					<p>Clean It Zero Cleansing Balm Brightening</p>
+					<p>€21.95</p>
+
+				</li>
+				<li class="cleansers">
+					<img src="images/products-filter/wishtrend-foaming-wash.webp" alt="" />
+
+					<button>In winkelmandje</button>
+					<h3>By Wishtrend</h3>
+					<p>Green Tea & Enzyme Milky Foaming Wash</p>
+					<p>€17.95</p>
+				</li>
+			</ul>
 		</section>
 
 		<!--SECTION 7 -->
