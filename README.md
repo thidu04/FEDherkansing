@@ -378,7 +378,7 @@ Uit de les FED 24-25 - Blok 1 - Oefening positioneren heb ik geleerd hoe je teks
 
 De officiele website heeft de navigatiedots OP de posters staan, wat het onoverzichtelijk en rommelig maakt. Ik wil de navigatiedots onder de posters hebben. 
 
-<img src="readme-images/navigatiedots-fout" width="300px" alt="navigatiedots die over de poster staan">
+<img src="readme-images/navigatiedots-fout.png" width="300px" alt="navigatiedots die over de poster staan">
 <img>
 
 

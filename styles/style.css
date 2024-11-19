@@ -11,35 +11,35 @@
 on November 16, 2024 */
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts-website/') format('woff2'),
-         url('../fonts-website/poppins-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Poppins';
+	src: url('../fonts-website/') format('woff2'),
+		url('../fonts-website/poppins-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts-website/poppins-bold-webfont.woff2') format('woff2'),
-         url('../fonts-website/poppins-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Poppins';
+	src: url('../fonts-website/poppins-bold-webfont.woff2') format('woff2'),
+		url('../fonts-website/poppins-bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts-website/poppins-light-webfont.woff2') format('woff2'),
-         url('../fonts-website/poppins-light-webfont.woff') format('woff');
-    font-weight: lighter;
-    font-style: normal;
+	font-family: 'Poppins';
+	src: url('../fonts-website/poppins-light-webfont.woff2') format('woff2'),
+		url('../fonts-website/poppins-light-webfont.woff') format('woff');
+	font-weight: lighter;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts-website/poppins-medium-webfont.woff2') format('woff2'),
-         url('../fonts-website/poppins-medium-webfont.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+	font-family: 'Poppins';
+	src: url('../fonts-website/poppins-medium-webfont.woff2') format('woff2'),
+		url('../fonts-website/poppins-medium-webfont.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
 }
 
 /*********************/
@@ -50,11 +50,11 @@ on November 16, 2024 */
 	--color-background: rgb(255, 255, 255);
 	--font-family: 'Poppins', tahoma, sans-serif;
 	--color-text: #111;
-    --color-text-white: #fff;
-    --button-color: #111;
-    --fontsize-button: .8em;
-    --button-products-standard-color: rgb(246, 246, 246);
-	--nav2-font-color: rgb(50, 50, 50); 
+	--color-text-white: #fff;
+	--button-color: #111;
+	--fontsize-button: .8em;
+	--button-products-standard-color: rgb(246, 246, 246);
+	--nav2-font-color: rgb(50, 50, 50);
 
 }
 
@@ -62,7 +62,7 @@ on November 16, 2024 */
 html {
 	scroll-padding-top: 5em;
 	scroll-behavior: smooth;
-	
+
 }
 
 /****************/
@@ -70,7 +70,7 @@ html {
 /****************/
 
 h1 {
-	position: absolute; 
+	position: absolute;
 	width: 0;
 	height: 0;
 	margin: 0;
@@ -79,14 +79,13 @@ h1 {
 }
 
 
-header > nav:first-of-type {
-	min-height: 4em;
-	padding: 0 1em;
-	line-height: 1;
+header>nav:first-of-type  {
+	
 	list-style: none;
 
 	display: flex;
 	justify-content: space-between;
+	
 
 }
 
@@ -95,55 +94,55 @@ header > nav:first-of-type {
 /* NAV 1 MENU ICONEN */
 /*********************/
 
-header > nav:first-of-type button:nth-of-type(1) img {
+header>nav:first-of-type button:nth-of-type(1) img {
 	width: 3em;
 	margin: 0;
 	padding: 0;
 }
 
-header > nav:first-of-type button:nth-of-type(2) img {
+header>nav:first-of-type button:nth-of-type(2) img {
 	width: 1.2em;
 	height: 1.2em;
 }
 
-header > nav:first-of-type button:nth-of-type(3) img {
-order: 3;
-width: 6em;
-height: 2.5em;
- 
+header>nav:first-of-type a img {
+	width: 6em;
+	height: 2.5em;
+
 }
 
-header > nav:first-of-type button:nth-of-type(4) img {
+header>nav:first-of-type button:nth-of-type(3) img {
 	width: 1.4em;
 	height: 1.4em;
-	
+
 }
 
-header > nav:first-of-type button:nth-of-type(5) img {
+header>nav:first-of-type button:nth-of-type(4) img {
 	width: 1.5em;
 	height: 1.5em;
-	
+
 }
 
 
 
-header > nav:first-of-type button:nth-of-type(1) {
+header>nav:first-of-type button:nth-of-type(1) {
 	order: 1;
 }
 
-header > nav:first-of-type button:nth-of-type(2) {
+header>nav:first-of-type button:nth-of-type(2) {
 	order: 2;
+
 }
 
-header > nav:first-of-type button:nth-of-type(3) {
+header>nav:first-of-type a {
 	order: 3;
 }
 
-header > nav:first-of-type button:nth-of-type(4) {
+header>nav:first-of-type button:nth-of-type(3) {
 	order: 4;
 }
 
-header > nav:first-of-type button:nth-of-type(5) {
+header>nav:first-of-type button:nth-of-type(4) {
 	order: 5;
 }
 
@@ -154,7 +153,28 @@ header > nav:first-of-type button:nth-of-type(5) {
 /*********************/
 /* Hamburger button */
 /*********************/
-header > nav:first-of-type button{
+header>nav:first-of-type button{
+
+	display: flex;
+	align-items: center;
+	gap: .25em;
+
+	appearance: none;
+	background-color: white;
+	border: none;
+	border-radius: .25em;
+	text-align: center;
+	color: var(--color-text);
+
+}
+
+header > nav:first-of-type button:nth-of-type(1) {
+    padding-left: 0; /* Verwijdert de padding aan de linkerzijde */
+    margin-left: 0; /* Verwijdert de marge aan de linkerzijde */
+}
+
+
+header>nav:first-of-type a {
 	padding: .5em;
 
 	display: flex;
@@ -167,7 +187,13 @@ header > nav:first-of-type button{
 	border-radius: .25em;
 	text-align: center;
 	color: var(--color-text);
+	margin: 0;
+	/* Vermijd ongewenste marges */
+	padding: .5em;
+
 }
+
+
 
 button:nth-of-type(1) img {
 	height: 4em;
@@ -188,7 +214,7 @@ header nav button {
 nav:last-of-type button {
 	/* Zorg dat de sluit-knop bovenaan staat en helemaal rechts positioneren */
 	position: absolute;
-	background-color: white;
+	background-color: var(--button-color);
 	margin: .5em;
 	border: none;
 
@@ -203,8 +229,7 @@ header nav button:nth-of-type(1) img {
 /* NAV 2 HAMBURGER MENU */
 /************************/
 
-header > nav:last-of-type {
-	padding-left: 1em;
+header>nav:last-of-type {
 	display: grid;
 	align-content: start;
 	gap: 1em;
@@ -222,12 +247,13 @@ header > nav:last-of-type {
 	transition: translate .3s;
 	z-index: 100;
 
-	width: 28em; /* Breedte van de navigatie */
+	width: 29em;
+	/* Breedte van de navigatie */
 	overflow-y: scroll;
 }
 
 /* Als menu open is */
-header > nav:last-of-type.toonMenu {
+header>nav:last-of-type.toonMenu {
 	translate: 0% 0%;
 }
 
@@ -236,15 +262,15 @@ header > nav:last-of-type.toonMenu {
 /*******************/
 
 
-  nav form {
+nav form {
 	margin: 0;
 	padding: 0;
 	display: flex;
 	gap: 1em;
 	background-color: black;
-  }
+}
 
-  nav label {
+nav label {
 	position: relative;
 	padding: 0.8em;
 	border-radius: 0.25em;
@@ -253,52 +279,53 @@ header > nav:last-of-type.toonMenu {
 	font-size: .9em;
 	font-weight: bold;
 	color: var(--color-text-white)
-  }
+}
 
-  /* Highlight geselecteerde optie */
-  nav label:has(input:checked) {
+/* Highlight geselecteerde optie */
+nav label:has(input:checked) {
 	background-image: linear-gradient(135deg, lightyellow, pink);
 	color: var(--color-text);
-  }
+}
 
-  label input {
+label input {
 	color: white;
 	appearance: none;
 	position: absolute;
 	inset: 0;
 	margin: 0;
-  }
+}
 
 
-  nav:nth-of-type(2) ul {
+nav:nth-of-type(2) ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	display: none; /* Verberg standaard alle ul's */
+	display: none;
+	/* Verberg standaard alle ul's */
 	gap: 1em;
-  }
+}
 
-  nav:nth-of-type(2) ul li {
+nav:nth-of-type(2) ul li {
 	display: block;
-  }
+}
 
-   /* Laat ul's zien op basis van geselecteerde optie */
-   nav:nth-of-type(2):has([value="menu"]:checked) ul.menu {
+/* Laat ul's zien op basis van geselecteerde optie */
+nav:nth-of-type(2):has([value="menu"]:checked) ul.menu {
 	display: grid;
-  }
+}
 
-  nav:nth-of-type(2):has([value="brands"]:checked) ul.brands {
+nav:nth-of-type(2):has([value="brands"]:checked) ul.brands {
 	display: grid;
-  }
+}
 
-  nav:nth-of-type(2):has([value="support"]:checked) ul.support {
+nav:nth-of-type(2):has([value="support"]:checked) ul.support {
 	display: grid;
-  }
+}
 
 /* KOPJES languages / currency */
 header nav:last-of-type h2 {
 	margin: 0;
-	padding: 0;
+	padding-left: 1em;
 	font-family: var(--font-family);
 	font-weight: bold;
 	font-size: .8em;
@@ -307,30 +334,35 @@ header nav:last-of-type h2 {
 
 header nav:last-of-type ul {
 	margin: 0;
-	padding: 0;
+	padding-left: 1em;
 	list-style: none;
 }
 
 header nav:last-of-type ul:nth-of-type(4),
-ul:nth-of-type(5) {
+header nav:last-of-type ul:nth-of-type(5) {
 
 	display: flex;
 	justify-content: space-around
 }
 
 header nav:last-of-type ul:nth-of-type(4) li,
-ul:nth-of-type(5) li {
-	
+header nav:last-of-type ul:nth-of-type(5) li {
+
 	display: flex;
 	gap: .5em;
 }
 
 header nav:last-of-type ul:nth-of-type(4) li a,
-ul:nth-of-type(5) li a {
+header nav:last-of-type ul:nth-of-type(5) li a {
 	font-family: var(--font-family);
 	text-decoration: none;
 	font-size: .8em;
 }
+
+header nav:last-of-type ul:nth-of-type(5) {
+	padding-bottom: 2em;
+}
+
 header nav:last-of-type ul img {
 	width: 1.2em;
 
@@ -347,8 +379,8 @@ header a {
 /************************/
 /* EEN LINK IN DE LIJST */
 /************************/
-header nav:last-of-type ul:nth-of-type(1) li a, 
-header nav:last-of-type ul:nth-of-type(2) li a, 
+header nav:last-of-type ul:nth-of-type(1) li a,
+header nav:last-of-type ul:nth-of-type(2) li a,
 header nav:last-of-type ul:nth-of-type(3) li a {
 	display: flex;
 	align-items: center;
@@ -360,8 +392,9 @@ header nav:last-of-type ul:nth-of-type(3) li a {
 	letter-spacing: .08em;
 }
 
-header nav:last-of-type ul:nth-of-type(1) a, 
-header nav:last-of-type ul:nth-of-type(2) a, header nav:last-of-type ul:nth-of-type(3) a {
+header nav:last-of-type ul:nth-of-type(1) a,
+header nav:last-of-type ul:nth-of-type(2) a,
+header nav:last-of-type ul:nth-of-type(3) a {
 	border-bottom: solid .05em var(--color-text);
 }
 

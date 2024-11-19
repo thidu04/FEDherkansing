@@ -1,0 +1,26 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	--color-text: #111;
+	--color-background: rgb(255, 255, 255);
+	--font-family: 'Poppins', tahoma, sans-serif;
+	--color-text: #111;
+	--color-text-white: #fff;
+	--button-color: #111;
+	--fontsize-button: .8em;
+	--button-products-standard-color: rgb(246, 246, 246);
+	--nav2-font-color: rgb(50, 50, 50);
+
+}
+
