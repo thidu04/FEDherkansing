@@ -9,18 +9,7 @@
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-    --color-text: #111;
-    --color-text-white: #fff;
-    --color-background: rgb(255, 255, 255);
-    --font-family: 'Poppins', tahoma, sans-serif;
-    --button-color: #111;
-    --fontsize-button: .8em;
-    --swiper-2-color: #fff2f9;
-    --button-products-standard-color: rgb(246, 246, 246);
 
-
-}
 
 main h2 {
     display: flex;
@@ -126,7 +115,7 @@ main section:nth-of-type(1) nav ul {
     gap: 1em;
 }
 
-.dot-poster {
+main nav a{
     display: block;
     padding: 5px;
     background-color: darkgray;
@@ -152,17 +141,20 @@ main section:nth-of-type(2) ul {
 main section:nth-of-type(2) li {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     font-size: 1em;
     background: var(--swiper-2-color);
 
     padding: 0.5em;
+    
     flex: 0 0 100%;
 
 }
 
 main section:nth-of-type(2) li img {
     margin-right: 1em;
+    
 }
 
 main section:nth-of-type(2) li p {
@@ -233,6 +225,7 @@ section:nth-of-type(4) label {
 
     padding: .5em 1.5em;
     border-radius: .25em;
+    color: var(--black-text);
     font-family: var(--font-family);
     font-weight: 600;
     background-color: var(--button-products-standard-color);

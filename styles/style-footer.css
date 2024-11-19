@@ -1,20 +1,6 @@
 
 /*FOOTER*/
 
-:root {
-    --color-text: #111;
-    --color-text-white: #fff;
-    --color-background: rgb(255, 255, 255);
-	--font-family: 'Poppins', tahoma, sans-serif;
-    --button-color: #111;
-    --fontsize-button: .8em;
-    --swiper-2-color: #fff2f9;
-    --footer-background:rgb(246, 246, 246);
-
-
-}
-
-
 footer h2 {
     display: none;
 }

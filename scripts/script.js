@@ -31,3 +31,5 @@ function sluitMenu() {
   let deNav = document.querySelector("header > nav:last-of-type"); // Selecteer de laatste nav (hamburgermenu)
   deNav.classList.remove("toonMenu");
 }
+
+
