@@ -399,10 +399,66 @@ Wanneer je op de productpagina bevindt en klikt op 'In Winkelmandje' krijg je re
 Ook krijg je als feedback een geluidje te horen (geld geluid) dat je het hebt gekocht en de button verandert even van kleur, elke keer wanneer je op die button drukt.
 
 
+</details>
 
 </details>
 
-## Eindgesprek (deadline 2e kans) (week 7)
+## Eindgesprek (deadline 1e kans) (week 7)
+
+<details>
+  <summary>uitwerken voor eindgesprek</summary>
+
+  ### Je uitkomst - karakteristiek screenshots:
+
+  <img src="readme-images/fullscreenshot-home1.png" width="300px" alt="uitomst opdracht 1">
+
+  ### Dit ging goed/Heb ik geleerd (deadline 1e kans): 
+
+
+  Ik heb veel geleerd tijdens de lessen, ik vond dat de lessen heel erg helpen met het maken van mijn website en er duidelijk word uitgelegd. Ik heb veel oefeningen ook toegepast op mijn site.
+  - Ik heb geleerd om het hamburger menu te maken en ook met javascript.
+  - Met grid werken voor de poster indeling van de tekst (Dit heb ik met Sanne gemaakt tijdens de laatste les)
+  - Met x-overflow scroll de sliders horizontaal te laten scrollen 
+  - Details summary gebruiken om een uitklapmenu te maken.
+  - Met @keyframe animaties maken op een makkelijke manier
+
+  Ik ben heel tevreden met de footer, ik vind dat het er netjes uitziet en veel lijkt op de originele pagina. Ook vond ik het leuk om te maken vooral de animatie vind ik een leuke toevoeging. 
+
+
+  ### Dit was lastig/Is niet gelukt (deadline 1e kans):
+
+  Het is mij niet gelukt om alles af te maken voor de deadline. Wel heb ik geprobeerd om zo ver mogelijk te komen. Ik heb mij vooral gefocust op de eerste pagina, want veel dingen komen in de 2e pagina in terug. 
+
+  - De carroussel is ook nog niet gelukt om werkend te krijgen. Ik had met Sanne in de les de navigatie bolletjes op de juiste manier proberen te maken zodat hij naar slide naar elke poster, maar hij gaat alleen naar 1 poster als je erop drukt. Dit wil ik nog fixen. 
+
+  - De filteropties vind ik ook nog moeilijk om voor elkaar te krijgen, ik ga dit nog uitvogelen en hulp vragen aan studentenassistenten. 
+
+  - De filteroptie moet ik ook toepassen op mijn hamburger menu, daarom is die nog niet af. 
+
+  - De tekst op mijn posters moet ik ook nog toevoegen, dit zal ik nog doen.
+
+  - Surface plane onderwerpen heb ik nog niet toegepast, ik was vooral bezig met het namaken van de site. Ik heb wel een animatie toegepast, maar ik weet niet of dat al genoeg is voor 1 onderwerp van de surfaceplane. Wel heb ik al een idee welke dingen ik wil toevoegen, namelijk: 
+- [x] Animaties (plusicoon)
+- [ ] Werkend filterfunctie
+- [ ] Werkend zoekfunctie
+- [ ] Style/animate SVG icons
+- [ ] Iets met video?
+
+Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn nav 1, ik had blijkbaar geen nav open geplaatst maar wel nav sluit. Dit zal ik later moeten aanpassen, want dit moet ik in css met pseudoclasses weer aangeven aangezien ik 2 navs heb.
+
+  <img src="readme-images/Foutmelding-nav1.png" width="375px" alt="nav 1 foutmelding">
+
+  Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. De meeste dingen staan er nu erin, maar ik wil nog wat uitleg en screenshots toevoegen om het meer compleet te maken.
+
+  Ik ervaarde wat problemen omdat ik later besefte dat de afbeeldingen op de filteropties eigenlijk a'tjes zijn die linken naar een andere pagina. Dit heb ik dus op het einde pas toegepast, want ik dacht dat het heel simpel zou zijn.. en dat er niks zou veranderen.. 
+
+</details>
+
+
+
+</details>
+
+## Eindgesprek (deadline 2e kans)
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
@@ -452,55 +508,7 @@ Ook krijg je als feedback een geluidje te horen (geld geluid) dat je het hebt ge
 
   Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. Ook zou ik de alts gelijk moeten toevoegen bij de images, ook al is het geen leuk werk en denk je dat het makkelijk is om het later toe te voegen..
 
- 
-
-</details>
-
-
-  ### Dit ging goed/Heb ik geleerd: 
-
-
-  Ik heb veel geleerd tijdens de lessen, ik vond dat de lessen heel erg helpen met het maken van mijn website en er duidelijk word uitgelegd. Ik heb veel oefeningen ook toegepast op mijn site.
-  - Ik heb geleerd om het hamburger menu te maken en ook met javascript.
-  - Met grid werken voor de poster indeling van de tekst (Dit heb ik met Sanne gemaakt tijdens de laatste les)
-  - Met x-overflow scroll de sliders horizontaal te laten scrollen 
-  - Details summary gebruiken om een uitklapmenu te maken.
-  - Met @keyframe animaties maken op een makkelijke manier
-
-  Ik ben heel tevreden met de footer, ik vind dat het er netjes uitziet en veel lijkt op de originele pagina. Ook vond ik het leuk om te maken vooral de animatie vind ik een leuke toevoeging. 
-
-
-  ### Dit was lastig/Is niet gelukt (deadline 1e kans):
-
-  Het is mij niet gelukt om alles af te maken voor de deadline. Wel heb ik geprobeerd om zo ver mogelijk te komen. Ik heb mij vooral gefocust op de eerste pagina, want veel dingen komen in de 2e pagina in terug. 
-
-  - De carroussel is ook nog niet gelukt om werkend te krijgen. Ik had met Sanne in de les de navigatie bolletjes op de juiste manier proberen te maken zodat hij naar slide naar elke poster, maar hij gaat alleen naar 1 poster als je erop drukt. Dit wil ik nog fixen. 
-
-  - De filteropties vind ik ook nog moeilijk om voor elkaar te krijgen, ik ga dit nog uitvogelen en hulp vragen aan studentenassistenten. 
-
-  - De filteroptie moet ik ook toepassen op mijn hamburger menu, daarom is die nog niet af. 
-
-  - De tekst op mijn posters moet ik ook nog toevoegen, dit zal ik nog doen.
-
-  - Surface plane onderwerpen heb ik nog niet toegepast, ik was vooral bezig met het namaken van de site. Ik heb wel een animatie toegepast, maar ik weet niet of dat al genoeg is voor 1 onderwerp van de surfaceplane. Wel heb ik al een idee welke dingen ik wil toevoegen, namelijk: 
-- [x] Animaties (plusicoon)
-- [ ] Werkend filterfunctie
-- [ ] Werkend zoekfunctie
-- [ ] Style/animate SVG icons
-- [ ] Iets met video?
-
-Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn nav 1, ik had blijkbaar geen nav open geplaatst maar wel nav sluit. Dit zal ik later moeten aanpassen, want dit moet ik in css met pseudoclasses weer aangeven aangezien ik 2 navs heb.
-
-  <img src="readme-images/Foutmelding-nav1.png" width="375px" alt="nav 1 foutmelding">
-
-  Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. De meeste dingen staan er nu erin, maar ik wil nog wat uitleg en screenshots toevoegen om het meer compleet te maken.
-
-  Ik ervaarde wat problemen omdat ik later besefte dat de afbeeldingen op de filteropties eigenlijk a'tjes zijn die linken naar een andere pagina. Dit heb ik dus op het einde pas toegepast, want ik dacht dat het heel simpel zou zijn.. en dat er niks zou veranderen.. 
-
-</details>
-
-
-
+ </details>
 
 
 
