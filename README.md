@@ -398,6 +398,29 @@ Wanneer je op de productpagina bevindt en klikt op 'In Winkelmandje' krijg je re
 
 Ook krijg je als feedback een geluidje te horen (geld geluid) dat je het hebt gekocht en de button verandert even van kleur, elke keer wanneer je op die button drukt.
 
+Hiervoor heb ik in javascript gewerkt, ik heb ook mijn oude code bijgepakt die ik had gemaakt voor inleiding programmeren. Die had ongeveer dezelfde werking over de puntentelling en hoe ik geluid moet toevoegen. 
+
+Wel waren mijn oude code voor inleiding programmeren veel variabele gebruikt, dat was omdat ik ze meerdere keren gebruikte in de code, in dit geval is dat niet zo. Alleen de cartCount kan veranderen qua aantal. Voor de rest waren het const. Ik heb ook de opdracht van de les bekeken die het heeft uitgelegd over de punten teller.
+
+<img src="readme-images/mijn-oude-js-code-bron.png" width="300px" alt="">
+<img>
+
+
+Mijn geluid wilde even niet werken, dus na veel proberen heb ik aan chatgpt gevraagd wat er mis is met de code. 
+
+<img src="readme-images/audio-toevoegen-werkt-niet.png" width="300px" alt="">
+<img>
+
+Uiteindelijk kwam het doordat ik de button niet goed had aangesproken want verder klopte hij wel, want de audio stond er wel in ik had dat getest met console play audio, direct onder de audio.
+
+
+<img src="readme-images/audio-toevoegen-werkt-niet.png" width="300px" alt="">
+<img>
+
+Om te zorgen dat de button van kleur veranderde als je erop klikte, heb ik zelf de css gemaakt, maar ik vond het nogal lastig om dat in javasript toe te passen, dus heeft chatgpt mij ermee geholpen. 
+
+
+kleurverandering-button-chatgpt
 
 </details>
 
@@ -511,7 +534,6 @@ Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn 
  </details>
 
 
-
 ## Bronnenlijst
 
 <details open>
@@ -539,5 +561,6 @@ Footer plus en min toevoegen bij het uitklapmenu:
   9. FED 24/25 - Positioneren - Oefening 1 
   10. Hamburger menu maken in css en javascript Codepen oefening 2 van FED 24-25 - Blok 1 - Oefening JS 3-stap
   11. Like button werkend maken html, CSS en javascript FED 24-25 - Blok 1 - Oefening JS 3-stap
+
 
 </details>
