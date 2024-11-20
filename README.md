@@ -482,6 +482,11 @@ Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn 
   <img src="readme-images/Foutmelding-nav1.png" width="375px" alt="nav 1 foutmelding">
 
   Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. De meeste dingen staan er nu erin, maar ik wil nog wat uitleg en screenshots toevoegen om het meer compleet te maken.
+  
+
+  Ik kreeg tijdens het valideren een error op mijn winkelmand teller, ik probeerde juist div te vermijden en span, dus had ik voor p gekozen omdat het toch een nummer/tekst was. Er werd gezeg dat in een button geen p mag en ook geen div. Ik heb daarom toch maar span gebruikt, en voor de zekerheid chatgpt gevraagd of het nog semantisch is om te gebruiken en ze zeiden dat in mijn geval span beste optie zou zijn. 
+
+   <img src="readme-images/error-validatie.png" width="375px" alt="nav 1 foutmelding">
 
 
 
@@ -539,6 +544,8 @@ Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn 
 
   - Ik wilde nog een light/dark mode button plaatsen. Ik heb dat nog niet kunnen doen, maar ik heb wel gekeken op de slides hoe dat zou moeten.
 
+  - Voor de svg heb ik nog niet in dark mode laten veranderen naar een witte kleur, dit zou ik wel doen als ik meer tijd had.
+
   Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. Ook zou ik de alts gelijk moeten toevoegen bij de images, ook al is het geen leuk werk en denk je dat het makkelijk is om het later toe te voegen..
 
   Ik ervaarde wat problemen omdat ik later besefte dat de afbeeldingen op de filteropties eigenlijk a'tjes zijn die linken naar een andere pagina. Dit heb ik dus op het einde pas toegepast, want ik dacht dat het heel simpel zou zijn.. en dat er niks zou veranderen.. 
@@ -570,9 +577,10 @@ Footer plus en min toevoegen bij het uitklapmenu:
   6. Codepen FED 24-25 Blok 1 Oefening JS 3-stap oefening 2 
   7. Footer uitklapmenu maken met details summary: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
   8. Font omzetten naar woff bestand https://www.fontsquirrel.com/tools/webfont-generator
-  9. FED 24/25 - Positioneren - Oefening 1 
+  9. Voor het positioneren van tekst op images FED 24/25 - Positioneren - Oefening 1 
   10. Hamburger menu maken in css en javascript Codepen oefening 2 van FED 24-25 - Blok 1 - Oefening JS 3-stap
   11. Like button werkend maken html, CSS en javascript FED 24-25 - Blok 1 - Oefening JS 3-stap
+  12. Giulietta gevraagd hoe ik over images hover het verandert naar andere images. Daarna zelf aan gewerkt hoe ik dat toevoeg aan mijn pagina.
 
 
 </details>
