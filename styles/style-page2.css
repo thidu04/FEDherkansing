@@ -3,21 +3,26 @@
 /**************/
 
 :root {
-    
+
     color-scheme: light dark;
+    --footer-background: light-dark( rgb(246, 246, 246),rgb(51, 51, 51 ));
+
 
 	--color-text: light-dark(#111, #eee);
+	--color-background: light-dark( rgb(255, 255, 255), #111 );
+	--color-text-white: light-dark(#fff, #111);
+	--black-color-background: light-dark(#111, #eee);
+    --breadcrumbs-gray:light-dark(rgb(118, 117, 117),#fff );
 
-    --black-text: #111;
-	--white-text: #eee;
-    --color-text-white: #fff;
+
+    --white-text: #eee;
+
     --color-background: rgb(255, 255, 255);
-	--black-color-background: #111;
+    --black-color-background: #111;
     --button-color: #111;
-	--white-button-color: #fff;
+    --white-button-color: #fff;
     --swiper-2-color: #fff2f9;
     --button-products-standard-color: rgb(246, 246, 246);
-    --footer-background: rgb(246, 246, 246);
 
 
     --font-family: 'Poppins', tahoma, sans-serif;
@@ -25,28 +30,60 @@
 
     --fontsize-button: .8em;
 
-  
+
     --nav2-font-color: rgb(50, 50, 50);
-	--nav2-white-font-color: #ddd;
+    --nav2-white-font-color: #ddd;
+
 }
 
 *,
 *::after,
 *::before {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+html {
+    scroll-padding-top: 1em;
+    scroll-behavior: smooth;
+
+}
+
+
+main section:nth-of-type(2) h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    font-family: var(--font-family);
+    font-size: 1.3em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 1em;
+
+}
+
+/* met de before en after elementen kan je deze lijnen maken. het before element is bij deze de lijn voor de heading en de lijn achter de heading is het. after element 
+Bron: Codepen studentenassistent Anna-Kyara Strik*/
+main section:nth-of-type(2) h2:before,
+main section:nth-of-type(2) h2:after {
+    content: '';
+    /* moet erin staan anders gebeurt er niets. In de '' kan je eventueel ook in schrijven */
+    width: 100%;
+    border-bottom: solid 0.1em;
+    /* de lijn zelf */
+}
 
 /************/
 /*SECTION 1
 PRODUCTINFORMATIE*/
 /************/
 
-section:nth-of-type(1) h2 {
-    display: none;
+main section:nth-of-type(1) h2 {
+   visibility: hidden;
 }
 
-section:nth-of-type(1) > ul:nth-of-type(1) {
+
+section:nth-of-type(1)>ul:nth-of-type(1) {
     margin: 0;
     padding: 1em;
     display: flex;
@@ -55,7 +92,7 @@ section:nth-of-type(1) > ul:nth-of-type(1) {
 }
 
 /*BREADCRUMBS*/
-section:nth-of-type(1) > ul:nth-of-type(1) li{
+section:nth-of-type(1)>ul:nth-of-type(1) li {
     list-style: none;
     font-family: var(--font-family);
     font-size: .7em;
@@ -63,18 +100,18 @@ section:nth-of-type(1) > ul:nth-of-type(1) li{
 
 }
 
-section:nth-of-type(1)  ul:nth-of-type(1) li a{
+section:nth-of-type(1) ul:nth-of-type(1) li a {
     color: var(--black-text);
     text-decoration: none;
 }
 
-section:nth-of-type(1) ul:nth-of-type(1) li a:visited{
+section:nth-of-type(1) ul:nth-of-type(1) li a:visited {
     color: var(--black-text);
 }
 
 
-section:nth-of-type(1) ul:nth-of-type(1) li:nth-of-type(3) a{
-    color: gray;
+section:nth-of-type(1) ul:nth-of-type(1) li:nth-of-type(3) a {
+    color: var(--breadcrumbs-gray);
 }
 
 /*slides*/
@@ -86,8 +123,8 @@ section:nth-of-type(1) ul:nth-of-type(2) {
     text-decoration: none;
 }
 
-section:nth-of-type(1) ul:nth-of-type(2) li img{
-width: 35em;
+section:nth-of-type(1) ul:nth-of-type(2) li img {
+    width: 35em;
 }
 
 /*slider*/
@@ -100,7 +137,7 @@ section:nth-of-type(1) ul:nth-of-type(3) {
 }
 
 
-section:nth-of-type(1) h3{
+section:nth-of-type(1) h3 {
     text-transform: uppercase;
     font-size: 1.8em;
     font-weight: 500;
@@ -108,58 +145,301 @@ section:nth-of-type(1) h3{
     margin: 0;
 }
 
-section:nth-of-type(1) h4{
+section:nth-of-type(1) h4 {
     font-size: 1.2em;
     font-weight: 500;
     padding: 0;
     margin: 0;
 }
 
-section:nth-of-type(1) ul:nth-of-type(3) img{
+section:nth-of-type(1) ul:nth-of-type(3) img {
     width: 12em;
-    
+
 }
 
-section:nth-of-type(1) article{
+section:nth-of-type(1) article {
     padding: 1em;
     font-family: var(--font-family);
 }
 
-section:nth-of-type(1) article ul{
+section:nth-of-type(1) article ul {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
- 
-    
+
+
 }
 
-section:nth-of-type(1) article p {
+section:nth-of-type(1) article p:nth-of-type(1) {
     font-size: .8em;
     letter-spacing: .03em;
     line-height: 1.5em;
-    
+
 }
 
-div{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
- div button {
-    padding: 10px;
-    font-size: 16px;
+/* PRIJS*/
+section:nth-of-type(1) article p:nth-of-type(2) {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* SIZE BUTTON*/
+section:nth-of-type(1) article button:nth-of-type(1) {
+    padding: .7em;
+    background-color: var(--white-button-color);
+    color: var(--black-text);
+    border: .08em solid var(--button-color);
     cursor: pointer;
-    border: 1px solid #ccc;
-    background-color: #f4f4f4;
-    border-radius: 5px;
-  }
-  
-div input {
-    width: 50px;
+}
+
+/* Aantal label & input*/
+section:nth-of-type(1) article input {
     text-align: center;
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+    width: 3em;
+    height: 2em;
+}
+
+section:nth-of-type(1) article label {
+    font-weight: 500;
+    font-size: .8em;
+}
+
+section:nth-of-type(1) article label,
+section:nth-of-type(1) article input {
+    display: block;
+    margin-top: 1rem;
+}
+
+/* WINKELMAND TELLER ICOON */
+#cart-button {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* WINKELMAND TELLER p NAV */
+#cart-count {
+    background-color: none;
+    color: var(--color-text);
+    font-family: var(--font-family);
+
+}
+
+/* Knop verandert van kleur nadat je op hebt gedrukt
+.clicked gebruikt voor javascript */
+.add-to-cart-button.clicked {
+    background-color: #ffd0f3;
+    color: var(--black-text);
+    transition: background-color 0.3s ease;
+}
+
+/* WINKELMANDJE BUTTON*/
+.add-to-cart-button {
+    padding: 1em;
+    background-color: var(--button-color);
+    color: var(--color-text);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* LIKE HARTJE BUTTON*/
+.like-button {
+    font-size: 1.5em;
+    width: 2em;
+    height: 2em;
+ 
+
+    color: gray; 
+
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    border: .05em solid var(--button-color);
+    margin-left: 1em;
+
+    background: transparent;
+    position: relative;
+
+
+    cursor: pointer; 
+    transition: color 0.3s ease; 
+}
+
+/* Like button wordt rood na klik */
+.like-button.clicked {
+    color: red; 
+}
+
+
+
+main section:nth-of-type(1) details {
+    margin: 1em;
+    font-family: var(--font-family);
+}
+
+main section:nth-of-type(1) section h2 {
+    font-size: 1em;
+    visibility: visible;  /* Zorgt ervoor dat het element zichtbaar is */ 
+}
+
+main section:nth-of-type(1) details p {
+   font-size: .8em ;
+   letter-spacing: .02em;
+   line-height: 1.5em;
+}
+
+main section:nth-of-type(1) details button{
+    background-color: var(--black-color-background);
+    color: var(--color-text-white);
+    padding: .8em;
+    border-radius: 1.2em 1.2em 1.2em 1.2em;
+}
+
+/* SECTION 2 
+GERELATEERDE PRODUCTEN*/
+main section:nth-of-type(2) ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: "";
+
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+}
+
+
+main section:nth-of-type(2) ul li img:nth-of-type(1) {
+    width: 15em;
+    height: auto;
+    display: block;
+    padding: 2em;
+
+    object-fit: cover;
+
+    position: relative;
+    /* Afbeelding blijft onder de p en like knop */
+    z-index: 1;
+    transition: opacity .5s ease-out;
+    
+    position: absolute; /* Stapelt afbeeldingen */
+    top: 0;
+    left: 0;
+   
+}
+
+main section:nth-of-type(2) ul li img:nth-of-type(2) {
+    width: 15em;
+    height: auto;
+    display: block;
+    padding: 2em;
+
+    opacity: 0;
+    transition: opacity .5s ease-out;
+
+    position: absolute;
+    /* Afbeelding blijft achter staan */
+    z-index: 0;
+}
+
+/* 1e afbeelding zichtbaar */
+main section:nth-of-type(2) ul li:hover img:nth-of-type(1) {
+    opacity: 0;
+}
+
+/* 2e afbeelding zichtbaar */
+main section:nth-of-type(2) ul li:hover img:nth-of-type(2) {
+    opacity: 1;
+}
+
+main section:nth-of-type(2) ul li {
+    position: relative;
+    display: grid;
+    grid-template-rows: 12em 1fr;
+    gap: 0.5em;
+    position: relative;
+    width: 15em;
+    /* Breedte van elke productkaart */
+    text-align: center;
+
+    margin: 1em;
+}
+
+/* LIKE BUTTON */
+main section:nth-of-type(2) ul li button:nth-of-type(1) {
+    position: absolute;
+    right: 1em;
+    top: 2em;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    z-index: 3;
+
+}
+
+main section:nth-of-type(2) ul li button:nth-of-type(1) img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 1.3em;
+    height: auto;
+
+}
+
+main section:nth-of-type(2) ul li button:last-of-type {
+    grid-row: 2 /3;
+
+    left: 0;
+    right: 0;
+
+    margin: 1em;
+    padding: .5em;
+
+    background-color: var(--button-color);
+    color: var(--color-text-white);
+    font-family: var(--font-family);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* NIEUW */
+main section:nth-of-type(2) ul li p:nth-of-type(1) {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+
+    margin: 1.5em;
+    padding: .4em;
+    background-color: var(--button-color);
+    color: var(--color-text-white);
+    font-family: var(--font-family);
+    font-size: .7em;
+    font-weight: 500;
+    z-index: 2;
+}
+
+ main section:nth-of-type(2) ul li h3,
+main section:nth-of-type(2) ul li p:nth-of-type(2) {
+    margin: 0;
+    font-family: var(--font-family);
+
+}
+
+/* Prijs dikgedrukt maken*/
+main section:nth-of-type(2) ul li p:nth-of-type(3) {
+    margin: 0;
+    font-weight: 600;
+    font-size: .8em;
+    font-family: var(--font-family);
+}
+
+main section:nth-of-type(2) ul li h3 {
+    font-size: 1.1em;
+    color: #333;
+}
+

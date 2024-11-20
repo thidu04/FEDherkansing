@@ -381,6 +381,12 @@ De officiele website heeft de navigatiedots OP de posters staan, wat het onoverz
 <img src="readme-images/navigatiedots-fout.png" width="300px" alt="navigatiedots die over de poster staan">
 <img>
 
+Als microinteractie heb ik gekozen om de winkelmand knop werkend te krijgen met CSS en javascript. 
+
+Wanneer je op de productpagina bevindt en klikt op 'In Winkelmandje' krijg je rechtboven bij de winkelmand icoon een update te zien van het aantal die je hebt toegevoegd. 
+
+Ook krijg je als feedback een geluidje te horen (geld geluid) dat je het hebt gekocht en de button verandert even van kleur, elke keer wanneer je op die button drukt.
+
 
 
 </details>
@@ -433,6 +439,8 @@ Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn 
 
   Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. De meeste dingen staan er nu erin, maar ik wil nog wat uitleg en screenshots toevoegen om het meer compleet te maken.
 
+  Ik ervaarde wat problemen omdat ik later besefte dat de afbeeldingen op de filteropties eigenlijk a'tjes zijn die linken naar een andere pagina. Dit heb ik dus op het einde pas toegepast, want ik dacht dat het heel simpel zou zijn.. en dat er niks zou veranderen.. 
+
 </details>
 
 
@@ -465,5 +473,7 @@ Footer plus en min toevoegen bij het uitklapmenu:
   7. Footer uitklapmenu maken met details summary: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
   8. Font omzetten naar woff bestand https://www.fontsquirrel.com/tools/webfont-generator
   9. FED 24/25 - Positioneren - Oefening 1 
+  10. Hamburger menu maken in css en javascript Codepen oefening 2 van FED 24-25 - Blok 1 - Oefening JS 3-stap
+  11. Like button werkend maken html, CSS en javascript FED 24-25 - Blok 1 - Oefening JS 3-stap
 
 </details>

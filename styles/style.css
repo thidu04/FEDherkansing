@@ -50,8 +50,9 @@ on November 16, 2024 */
     color-scheme: light dark;
 
 	--color-text: light-dark(#111, #eee);
-	--color-background: light-dark( rgb(255, 255, 255),#111 );
+	--color-background: light-dark( rgb(255, 255, 255), #111 );
 	--color-text-white: light-dark(#fff, #111);
+	--black-color-background: light-dark(#111, #eee);
 
 
    
@@ -77,45 +78,11 @@ on November 16, 2024 */
 	/*vaste kleurtjes geen light of dark*/
 	--black-text: #111;
 	--white-text: #eee;
+	--nav1-color: rgb(16, 16, 16);
 }
 
 
-@media (prefers-color-scheme: dark) {
-    :root {
- 
-        --button-color: #444; /* Voeg aanpassingen toe voor buttons als je wilt */
-        --nav2-font-color: #ddd; /* Voor nav kleur in dark mode */
-    }
 
-    /* Specifieke stijlen voor donkere modus */
-    body {
-        background-color: var(--color-background);
-        color: var(--color-text);
-    }
-
-    header, footer, nav {
-        background-color: var(--color-background);
-        color: var(--color-text);
-    }
-
-    header a {
-        color: var(--color-text-white);
-    }
-
-    button {
-        background-color: var(--button-color);
-        color: var(--color-text);
-    }
-
-    /* Andere donkere modus stijlen... */
-}
-
-
-html {
-	scroll-padding-top: 5em;
-	scroll-behavior: smooth;
-
-}
 
 /****************/
 /* JOUW STYLING */
@@ -130,21 +97,26 @@ h1 {
 	overflow: hidden;
 }
 
-
-header>nav:first-of-type  {
-	
-	list-style: none;
-
-	display: flex;
-	justify-content: space-between;
-	
-
-}
-
-
 /*********************/
 /* NAV 1 MENU ICONEN */
 /*********************/
+
+
+
+header>nav:first-of-type  {
+	
+	position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background-color: var(--nav1-color);
+    z-index: 100; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  
+}
+
 
 header>nav:first-of-type button:nth-of-type(1) img {
 	width: 3em;
@@ -179,24 +151,30 @@ header>nav:first-of-type button:nth-of-type(4) img {
 
 header>nav:first-of-type button:nth-of-type(1) {
 	order: 1;
+	background-color: transparent;
 }
 
 header>nav:first-of-type button:nth-of-type(2) {
 	order: 2;
+	background-color: transparent;
 
 }
 
 header>nav:first-of-type a {
 	order: 3;
+	background-color: transparent;
 }
 
 header>nav:first-of-type button:nth-of-type(3) {
 	order: 4;
+	background-color: transparent;
 }
 
 header>nav:first-of-type button:nth-of-type(4) {
 	order: 5;
+	background-color: transparent;
 }
+
 
 
 
@@ -212,7 +190,7 @@ header>nav:first-of-type button{
 	gap: .25em;
 
 	appearance: none;
-	background-color: white;
+	background-color: var(--white-text);
 	border: none;
 	border-radius: .25em;
 	text-align: center;
@@ -234,13 +212,13 @@ header>nav:first-of-type a {
 	gap: .25em;
 
 	appearance: none;
-	background-color: white;
+	background-color: var(--color-background);
 	border: none;
 	border-radius: .25em;
 	text-align: center;
 	color: var(--color-text);
 	margin: 0;
-	/* Vermijd ongewenste marges */
+	
 	padding: .5em;
 
 }
@@ -266,7 +244,7 @@ header nav button {
 nav:last-of-type button {
 	/* Zorg dat de sluit-knop bovenaan staat en helemaal rechts positioneren */
 	position: absolute;
-	background-color: var(--button-color);
+background-color: transparent;
 	margin: .5em;
 	border: none;
 
@@ -300,7 +278,7 @@ header>nav:last-of-type {
 	z-index: 100;
 
 	width: 29em;
-	/* Breedte van de navigatie */
+	
 	overflow-y: scroll;
 }
 
@@ -319,7 +297,7 @@ nav form {
 	padding: 0;
 	display: flex;
 	gap: 1em;
-	background-color: black;
+	background-color: var(--black-text)
 }
 
 nav label {
@@ -330,18 +308,17 @@ nav label {
 	font-family: var(--font-family);
 	font-size: .9em;
 	font-weight: bold;
-	color: var(--color-text-white)
+	color: var(--white-text);
 }
 
 /* Highlight geselecteerde optie */
 nav label:has(input:checked) {
 	background-image: linear-gradient(135deg, lightyellow, pink);
-	color: var(--color-text);
 	color: var(--black-text);
 }
 
 label input {
-	color: white;
+	color: var(--white-text);
 	appearance: none;
 	position: absolute;
 	inset: 0;
@@ -424,7 +401,7 @@ header nav:last-of-type ul img {
 /* Alle links in de hamburgermenu */
 header a {
 	padding: .5em 0;
-	color: var(--nav2-font-color);
+	color: var(--color-text);
 
 }
 

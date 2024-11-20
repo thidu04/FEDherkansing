@@ -5,11 +5,48 @@
 }
 
 
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 
+:root {
+    color-scheme: light dark;
+
+	--color-text: light-dark(#111, #eee);
+	--color-background: light-dark( rgb(255, 255, 255), #111 );
+	--color-text-white: light-dark(#fff, #111);
+	--black-color-background: light-dark(#111, #eee);
+
+
+   
+
+    --button-color: #111;
+	--white-button-color: #fff;
+    --swiper-2-color: #fff2f9;
+    --button-products-standard-color: rgb(246, 246, 246);
+    --footer-background: rgb(246, 246, 246);
+
+
+    --font-family: 'Poppins', tahoma, sans-serif;
+
+
+    --fontsize-button: .8em;
+
+  
+    --nav2-font-color: rgb(50, 50, 50);
+	--nav2-white-font-color: #ddd;
+
+
+	/*vaste kleurtjes geen light of dark*/
+	--black-text: #111;
+	--white-text: #eee;
+}
+
+html {
+    scroll-padding-top: 5em;
+    scroll-behavior: smooth;
+
+}
 
 main h2 {
     display: flex;
@@ -36,8 +73,8 @@ main h2:after {
 }
 
 /* 1e h2 invisible maken */
-section:nth-of-type(1) h2 {
-    display: none;
+main section:nth-of-type(1) h2 {
+visibility: hidden;
 }
 
 /**********************/
@@ -97,7 +134,7 @@ main section:nth-of-type(1)>ul li a {
     font-size: var(--fontsize-button);
     text-transform: uppercase;
 
-    color: var(--color-text-white);
+    color: var(--white-text);
     background-color: var(--button-color);
     grid-column-start: 1;
     grid-column-end: 2;
@@ -115,10 +152,10 @@ main section:nth-of-type(1) nav ul {
     gap: 1em;
 }
 
-main nav a{
+main nav a {
     display: block;
     padding: 5px;
-    background-color: darkgray;
+    background-color: var(--color-text);
     border-radius: 25px;
     display: flex;
 }
@@ -147,18 +184,19 @@ main section:nth-of-type(2) li {
     background: var(--swiper-2-color);
 
     padding: 0.5em;
-    
+
     flex: 0 0 100%;
 
 }
 
 main section:nth-of-type(2) li img {
     margin-right: 1em;
-    
+
 }
 
 main section:nth-of-type(2) li p {
     margin: 0;
+    color: var(--black-text);
     font-family: var(--font-family);
 }
 
@@ -288,15 +326,35 @@ section:nth-of-type(4) ul li {
     gap: 0.5em;
     position: relative;
     width: 15em;
-    /* Breedte van elke productkaart */
+
     text-align: center;
 
     margin: 1em;
 }
 
-section:nth-of-type(4) ul li button {
+section:nth-of-type(4) ul li button:nth-of-type(1) {
+    position: absolute;
+    right: 1em;
+    top: 2em;
+
+    margin: 0;
+    padding: 0;
+    background-color: var(--white-button-color);
+    border: none;
+
+}
+
+section:nth-of-type(4) ul li button:nth-of-type(1) img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 1.3em;
+    height: auto;
+}
+
+section:nth-of-type(4) ul li button:last-of-type {
     grid-row: 2 /3;
-    
+
     left: 0;
     right: 0;
 
@@ -304,24 +362,24 @@ section:nth-of-type(4) ul li button {
     padding: .5em;
 
     background-color: var(--button-color);
-    color: var(--color-text-white);
+    color: var(--white-text);
     font-family: var(--font-family);
     font-weight: 600;
     text-transform: uppercase;
 }
 
-
+/* NIEUW */
 section:nth-of-type(4) ul li p:nth-of-type(1) {
     position: absolute;
-    
+
     left: 0;
     top: 0;
 
-    /* dingen die je al kent */
+    
     margin: 1.5em;
     padding: .4em;
     background-color: var(--button-color);
-    color: var(--color-text-white);
+    color: var(--white-text);
     font-family: var(--font-family);
     font-size: .7em;
     font-weight: 500;
@@ -330,6 +388,7 @@ section:nth-of-type(4) ul li p:nth-of-type(1) {
 section:nth-of-type(4) ul li h3,
 section:nth-of-type(4) ul li p:nth-of-type(2) {
     margin: 0;
+    color: var(--color-text);
     font-family: var(--font-family);
 
 }
@@ -344,7 +403,6 @@ section:nth-of-type(4) ul li p:nth-of-type(3) {
 
 section:nth-of-type(4) ul li h3 {
     font-size: 1.1em;
-    color: #333;
 }
 
 section:nth-of-type(4):has([value="cleansers"]:checked) li:not(.cleansers) {
@@ -407,7 +465,7 @@ section:nth-of-type(5) a {
     bottom: 1.5em;
 
     background-color: var(--button-color);
-    color: var(--color-text-white);
+    color:  var(--white-text);
 
     padding: 1em;
     text-decoration: none;
@@ -423,10 +481,10 @@ main section:nth-of-type(5) img {
 
 /**************/
 /* SECTION 6
- Styling for the unordered list */
+BESTSELLERS PRODUCTS LIST */
 /**************/
 
-main section:nth-of-type(6) a {
+main section:nth-of-type(6) a:first-of-type {
 
     display: flex;
     justify-content: center;
@@ -439,6 +497,9 @@ main section:nth-of-type(6) a:visited {
     color: var(--color-text);
 }
 
+
+
+
 section:nth-of-type(6) ul {
     margin: 0;
     padding: 0;
@@ -450,9 +511,8 @@ section:nth-of-type(6) ul {
 
 }
 
-
 section:nth-of-type(6) ul li img {
-    width: 15em;
+    width: 16em;
     height: auto;
     display: block;
     grid-row: 1;
@@ -467,18 +527,43 @@ section:nth-of-type(6) ul li {
     gap: 0.5em;
     position: relative;
     width: 15em;
+
     text-align: center;
+
     margin: 1em;
 }
 
-section:nth-of-type(6) ul li button {
-    grid-row: 2 / 3;
+section:nth-of-type(6) ul li button:nth-of-type(1) {
+    position: absolute;
+    right: 1em;
+    top: 2em;
+
+    margin: 0;
+    padding: 0;
+    background-color: var(--white-button-color);
+    border: none;
+
+}
+
+section:nth-of-type(6) ul li button:nth-of-type(1) img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 1.3em;
+    height: auto;
+}
+
+section:nth-of-type(6) ul li button:last-of-type {
+    grid-row: 2 /3;
+
     left: 0;
     right: 0;
+
     margin: 1em;
     padding: .5em;
+
     background-color: var(--button-color);
-    color: var(--color-text-white);
+    color: var(--white-text);
     font-family: var(--font-family);
     font-weight: 600;
     text-transform: uppercase;
@@ -488,7 +573,9 @@ section:nth-of-type(6) ul li button {
 section:nth-of-type(6) ul li h3,
 section:nth-of-type(6) ul li p:nth-of-type(1) {
     margin: 0;
+    color: var(--color-text);
     font-family: var(--font-family);
+
 }
 
 /* Prijs dikgedrukt maken*/
@@ -501,7 +588,6 @@ section:nth-of-type(6) ul li p:nth-of-type(2) {
 
 section:nth-of-type(6) ul li h3 {
     font-size: 1.1em;
-    color: #333;
 }
 
 
@@ -512,8 +598,8 @@ section:nth-of-type(6) ul li h3 {
 
 main section:nth-of-type(7) {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: auto repeat(2, 10em) 18em; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto repeat(2, 10em) 18em;
     gap: 0.5em;
     width: 100%;
     max-width: 38em;
@@ -521,13 +607,13 @@ main section:nth-of-type(7) {
 }
 
 main section:nth-of-type(7) h2 {
-    grid-column: 1 / -1; 
+    grid-column: 1 / -1;
 }
 
 
 main section:nth-of-type(7) article {
     margin: 0;
-padding: 0;
+    padding: 0;
     position: relative;
     width: 100%;
     height: 100%;
@@ -541,16 +627,17 @@ main section:nth-of-type(7) article img {
     cursor: pointer;
     display: block;
 }
-main section:nth-of-type(7) a{
-    position: absolute; 
-    bottom: 0.5em; 
-    left: 0.5em; 
+
+main section:nth-of-type(7) a {
+    position: absolute;
+    bottom: 0.5em;
+    left: 0.5em;
 
     text-decoration: none;
 
     font-family: var(--font-family);
     font-weight: bold;
-    color: var(--color-text);
+    color: var(--black-text);
 
     cursor: pointer;
 }
@@ -560,27 +647,29 @@ main section:nth-of-type(7) article:nth-of-type(5) {
 }
 
 main section:nth-of-type(7) article:nth-of-type(5) a {
-   position: absolute; 
-   bottom: 2.8em; 
-   font-size: 1.3em;
+    position: absolute;
+    bottom: 2.8em;
+    font-size: 1.3em;
 }
 
 main section:nth-of-type(7) article:nth-of-type(5) p {
-    position: absolute; 
-    left: 0.8em; 
-    bottom: 0.1em; 
+    position: absolute;
+    left: 0.8em;
+    bottom: 0.1em;
 
+    color: var(--black-text);
     font-family: var(--font-family);
     font-weight: 500;
+    
 }
 
 /*****************************/
 /*KOREAN SKINCARE QUIZ VIDEO*/
 /*****************************/
 
-iframe {
+video {
     width: 100%;
-    height: 540px;
+
 }
 
 
@@ -600,7 +689,7 @@ section:nth-of-type(8) p {
 
 section:nth-of-type(8) a {
 
-    background-color: var(--button-color);
+    background-color: var(--black-color-background);
     color: var(--color-text-white);
     display: inline-block;
     padding: 1em 2em;

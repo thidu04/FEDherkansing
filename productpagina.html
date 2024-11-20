@@ -35,8 +35,9 @@
 				<img src="images/profile-icon.svg" alt="profile icon">
 			</button>
 
-			<button>
+			<button id="cart-button">
 				<img src="images/cart-icon.svg" alt="cart icon">
+				<p id="cart-count">0</p>
 			</button>
 		</nav>
 		<!-- NAV 2 Content in hamburgermenu -->
@@ -225,41 +226,173 @@
 			</ul>
 
 			<article>
-			<h3>Skin & Lab</h3>
-			<h4>Hybarrier Hyaluronic Capsule Cleanser</h4>
+				<h3>Skin & Lab</h3>
+				<h4>Hybarrier Hyaluronic Capsule Cleanser</h4>
+				<ul>
+					<li>
+						<p>Merk: Skin & Lab
+						</p>
+					</li>
+					<li>
+						<p>
+							Beschikbaarheid: Op voorraad
+						</p>
+					</li>
+					<li>
+						<p>Producttype: Moisturisers
+						</p>
+					</li>
+				</ul>
+				<p>
+					Beschrijving: De SKIN & LAB Hybarrier Hyaluronic Capsule Cleanser
+					biedt een diep hydraterende en hypoallergene reiniging dankzij
+					de unieke formule met tien soorten hyaluronzuur en het Hyaldeca Complex.
+					Deze cleanser, verrijkt met vochtrijke capsules, verwijdert vuil en onzuiverheden grondig terwijl...
+				</p>
+				<p>€17.95</p>
+				<p>Size: 200ml</p>
+				<button>200ml</button>
+				<label for="quantity">Aantal:</label>
+				<input type="number" id="quantity" class="quantity" value="1" min="1">
+				<p>Subtotaal: €17.95</p>
+				<button class="add-to-cart-button">In winkelmandje</button>
+				<button class="like-button" aria-label="like">
+					♥
+				</button>
+			</article>
+			<details>
+				<summary>Description</summary>
+				<section>
+					<h2>Beschrijving van de SKIN & LAB Hybarrier Hyaluronic Capsule Cleanser</h2>
+					<p>De SKIN & LAB Hybarrier Hyaluronic Capsule Cleanser biedt een diep hydraterende en hypoallergene
+						reiniging dankzij de unieke formule met tien soorten hyaluronzuur en het Hyaldeca Complex. Deze
+						cleanser, verrijkt met vochtrijke capsules, verwijdert vuil en onzuiverheden grondig terwijl de
+						hydratatie van de huid behouden blijft, zodat deze zacht en fris aanvoelt zonder trekkerig of
+						droog aan te voelen.</p>
+
+					<h2>Aanbevolen voor:</h2>
+					<p>Droge huid, alle huidtypes.</p>
+
+					<h2>Hoe het werkt:</h2>
+					<p>De cleanser combineert glycerine, sorbitol en een vochtgelei van hyaluronzuur om de huid
+						gehydrateerd te houden tijdens en na gebruik.</p>
+
+					<h2>Gebruik:</h2>
+					<p>Neem een voldoende hoeveelheid in je handen en creëer voldoende schuim, masseer vervolgens over
+						je gezicht. Spoel grondig af met lauw water.</p>
+
+					<h2>Ingrediënten:</h2>
+					<p>Water, Sodium C14-16 Olefin Sulfonate, Lauryl Betaine, Acrylates Copolymer, Coco-glucoside,
+						Glycerin, Disodium Coco-Glucoside Citrate, Sorbitol, Sodium Cocoamphoacetate, Sodium Chloride,
+						1,2-Hexanediol, Dipropylene Glycol, Hydroxyacetophenone, Fragrance, Hexadecene, Tetradecene,
+						PEG-9 Diglycidyl Ether/Sodium Hyaluronate Crosspolymer, Citric Acid, Xanthan Gum, Disodium EDTA,
+						PPG-14 Butyl Ether, Sodium Hyaluronate, Houttuynia Cordata Extract, Hydroxypropyltrimonium
+						Hyaluronate, Maltodextrin, Hydrolyzed Gardenia Florida Extract, Hydrolyzed Hyaluronic Acid,
+						Sodium Acetylated Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Sodium
+						Hyaluronate Crosspolymer, Potassium Hyaluronate.</p>
+				</section>
+			</details>
+			<details>
+				<summary>Verzending</summary>
+				<section>
+					<h2>Shipping information</h2>
+					<p>Korean Skincare delivers your parcel quickly and safely, 6 days a week, from our own warehouse in
+						Europe. We ship parcels every day from Sunday to Friday. Order before 23:30 and we will ship
+						your package the same day! (Sunday to Friday)
+
+						You can find more information about our shipping here:</p>
+					<a href="#">Shipping and returns</a>
+				</section>
+			</details>
+			<details>
+				<summary>Reviews</summary>
+				<section>
+					<h2>Klantenreviews</h2>
+					<p>Nog geen beoordelingen</p>
+					<button>Schrijf een recensie</button>
+				</section>
+			</details>
+		</section>
+		<!--SECTION 2 GERELATEERDE PRODUCTEN -->
+		<section>
+			<h2>GERELATEERDE PRODUCTEN</h2>
 			<ul>
-				<li>
-					<p>Merk: Skin & Lab
-					</p>
+
+				<li class="cleansers">
+					<a href="productpagina.html">
+						<img src="images/products-filter/jumiso-pore-cleansing-oil.webp" alt="">
+						<img src="images/products-filter/jumiso-pore-cleansing-oil2.webp" alt="">
+					</a>
+					<button>
+						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
+					</button>
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Jumiso</h3>
+					<p>Gentle Pore Clearing Cleansing Oil</p>
+					<p>€22.95</p>
 				</li>
-				<li>
-					<p>
-						Beschikbaarheid: Op voorraad
-					</p>
+				<li class="moisturizers">
+					<a href="productpagina.html">
+						<img src="images/products-filter/skinlab-cream.webp" alt="">
+						<img src="images/products-filter/skinlab-cream2.webp" alt="">
+					</a>
+					<button>
+						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
+					</button>
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Skin & Lab</h3>
+					<p>Hybarrier Hyaluronic Moisturizer</p>
+					<p>€27.95</p>
+
+				<li class="serums">
+					<a href="productpagina.html">
+						<img src="images/products-filter/anua-serum.webp" alt="">
+						<img src="images/products-filter/anua-serum2.webp" alt="">
+					</a>
+					<button>
+						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
+					</button>
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Anua</h3>
+					<p>7 Rice Ceramide hydrating Barrier Serum</p>
+					<p>€24.95</p>
 				</li>
-				<li>
-					<p>Producttype: Moisturisers
-					</p>
 				</li>
+
+				<li class="facemasks">
+					<a href="productpagina.html">
+						<img src="images/products-filter/tea-tree-mask.webp" alt="">
+						<img src="images/products-filter/dr-althea-serum2.webp" alt="">
+					</a>
+					<button>
+						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
+					</button>
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Dr.CeuracleL</h3>
+					<p>Tea Tree Purifine Soothing Mask</p>
+					<p>€2.95</p>
+				</li>
+
+				<li class="sunscreens">
+					<a href="productpagina.html">
+						<img src="images/products-filter/skinlab-sunscreen.webp" alt="">
+						<img src="images/products-filter/skinlab-sunscreen2.webp" alt="">
+					</a>
+					<button>
+						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
+					</button>
+					<p>Nieuw</p>
+					<button>In winkelmandje</button>
+					<h3>Skin & Lab</h3>
+					<p>Hybarrier Fresh Sun Lotion SPF50+ PA++++</p>
+					<p>€21.95</p>
+				</li>
+
 			</ul>
-			<p>
-				Beschrijving: De SKIN & LAB Hybarrier Hyaluronic Capsule Cleanser 
-				biedt een diep hydraterende en hypoallergene reiniging dankzij 
-				de unieke formule met tien soorten hyaluronzuur en het Hyaldeca Complex. 
-				Deze cleanser, verrijkt met vochtrijke capsules, verwijdert vuil en onzuiverheden grondig terwijl...
-			</p>
-			<p>€17.95</p>
-			<p>Size: 200ml</p>
-			<button>200ml</button>
-			<p>Aantal:</p>
-			<div>
-				<button class="minus">-</button>
-				<input type="number" class="quantity" value="1" min="1">
-				<button class="plus">+</button>
-			  </div>
-			<p>Subtotaal: €17.95</p>
-			<button>In winkelmandje</button>
-		</article>
 		</section>
 	</main>
 
