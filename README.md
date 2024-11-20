@@ -419,10 +419,20 @@ Uiteindelijk kwam het doordat ik de button niet goed had aangesproken want verde
 
 Om te zorgen dat de button van kleur veranderde als je erop klikte, heb ik zelf de css gemaakt, maar ik vond het nogal lastig om dat in javasript toe te passen, dus heeft chatgpt mij ermee geholpen. 
 
+<img src="readme-images/uitkomst-chatgpt-kleurverandering.png" width="300px" alt="">
+<img>
 
-kleurverandering-button-chatgpt
+Ik gebruikte eerst voor mij video iframe, maar ik denk dat dat niet heel semantisch is aangezien het ook van een andere pagina komt en heel veel divs in bevat. Dit wilde ik juist vermijden, dus heb ik het toegevoegd als een video. 
 
-</details>
+<img src="readme-images/video-veranderen.png" width="300px" alt="">
+<img>
+
+  Ik ervaarde wat problemen omdat ik later besefte dat de afbeeldingen op de filteropties eigenlijk a'tjes zijn die linken naar een andere pagina. Dit heb ik dus op het einde pas toegepast, want ik dacht dat het heel simpel zou zijn.. en dat er niks zou veranderen.. 
+
+
+<img src="readme-images/verschuiving-na-de-link-toevoeging.png" width="300px" alt=""><img>
+
+Als ik wat meer tijd had zou ik het nog willen uitvogelen hoe ik het weer netjes recht krijg.
 
 </details>
 
@@ -473,7 +483,7 @@ Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn 
 
   Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. De meeste dingen staan er nu erin, maar ik wil nog wat uitleg en screenshots toevoegen om het meer compleet te maken.
 
-  Ik ervaarde wat problemen omdat ik later besefte dat de afbeeldingen op de filteropties eigenlijk a'tjes zijn die linken naar een andere pagina. Dit heb ik dus op het einde pas toegepast, want ik dacht dat het heel simpel zou zijn.. en dat er niks zou veranderen.. 
+
 
 </details>
 
@@ -530,6 +540,8 @@ Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn 
   - Ik wilde nog een light/dark mode button plaatsen. Ik heb dat nog niet kunnen doen, maar ik heb wel gekeken op de slides hoe dat zou moeten.
 
   Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. Ook zou ik de alts gelijk moeten toevoegen bij de images, ook al is het geen leuk werk en denk je dat het makkelijk is om het later toe te voegen..
+
+  Ik ervaarde wat problemen omdat ik later besefte dat de afbeeldingen op de filteropties eigenlijk a'tjes zijn die linken naar een andere pagina. Dit heb ik dus op het einde pas toegepast, want ik dacht dat het heel simpel zou zijn.. en dat er niks zou veranderen.. 
 
  </details>
 
