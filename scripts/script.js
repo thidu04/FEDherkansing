@@ -42,43 +42,44 @@ ChatGPT voor de button verandering na een klik.
 /************************************/
 
 /*Teller die aantallen bijhoudt in winkelmandje */
-let cartCount = 0; 
+let cartCount = 0;
 
 const cartSound = new Audio('../audio/buy-sound.mp3');
 
 
 /* Alle aantallen updaten in het winkelmandje */
 function updateCartCount() {
-    const cartCountElement = document.getElementById('cart-count');
-    cartCountElement.textContent = cartCount;  
+  const cartCountElement = document.getElementById('cart-count');
+  cartCountElement.textContent = cartCount;
 }
 
 
 const addToCartButtons = document.querySelectorAll('.add-to-cart-button');
 addToCartButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      console.log('Button clicked');
-       /* Voor puntenteller omhoog en speel geluid af  */
-        cartCount++; 
-        updateCartCount();  
+  button.addEventListener('click', function () {
+    console.log('Button clicked');
+    /* Voor puntenteller omhoog en speel geluid af  */
+    cartCount++;
+    updateCartCount();
 
-        cartSound.currentTime = 0; 
-        cartSound.play(); 
+    cartSound.currentTime = 0;
+    cartSound.play();
 
-        // Verander tijdelijk de knopkleur
-        button.classList.add('clicked'); // Voeg de tijdelijke stijl toe
+    // Verander tijdelijk de knopkleur
+    button.classList.add('clicked'); // Voeg de tijdelijke stijl toe
 
-        // Zet de knop terug naar de oorspronkelijke kleur na 1 seconde (1000 ms)
-        setTimeout(() => {
-            button.classList.remove('clicked'); // Verwijder de tijdelijke stijl
-        }, 1000); // Tijd in milliseconden
-    });
-});
-
-const likeButton = document.querySelector('.like-button');
+    // Zet de knop terug naar de oorspronkelijke kleur na 1 seconde (1000 ms)
+    setTimeout(() => {
+      button.classList.remove('clicked'); // Verwijder de tijdelijke stijl
+    }, 1000); // Tijd in milliseconden
+  });
+  
+  const likeButton = document.querySelector('.like-button');
 
 // Voeg een klik event toe aan de like-button
-likeButton.addEventListener('click', function() {
-    // Toggle de 'clicked' class om de kleur van het hart te veranderen
-    this.classList.toggle('clicked');
+likeButton.addEventListener('click', function () {
+  // Toggle de 'clicked' class om de kleur van het hart te veranderen
+  this.classList.toggle('clicked');
 });
+});
+

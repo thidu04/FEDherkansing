@@ -106,6 +106,7 @@ section:nth-of-type(1)>ul:nth-of-type(1) li {
 section:nth-of-type(1) ul:nth-of-type(1) li a {
     color: var(--black-text);
     text-decoration: none;
+    cursor: pointer; 
 }
 
 section:nth-of-type(1) ul:nth-of-type(1) li a:visited {
@@ -364,7 +365,7 @@ main section:nth-of-type(2) ul li {
     gap: 0.5em;
     position: relative;
     width: 15em;
-    /* Breedte van elke productkaart */
+    
     text-align: center;
 
     margin: 1em;

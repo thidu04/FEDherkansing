@@ -47,30 +47,30 @@ on November 16, 2024 */
 /*********************/
 
 :root {
-    color-scheme: light dark;
+	color-scheme: light dark;
 
 	--color-text: light-dark(#111, #eee);
-	--color-background: light-dark( rgb(255, 255, 255), #111 );
+	--color-background: light-dark(rgb(255, 255, 255), #111);
 	--color-text-white: light-dark(#fff, #111);
 	--black-color-background: light-dark(#111, #eee);
 
-   
+
 
 	--black-color-background: #111;
-    --button-color: #111;
+	--button-color: #111;
 	--white-button-color: #fff;
-    --swiper-2-color: #fff2f9;
-    --button-products-standard-color: rgb(246, 246, 246);
-    --footer-background: rgb(246, 246, 246);
+	--swiper-2-color: #fff2f9;
+	--button-products-standard-color: rgb(246, 246, 246);
+	--footer-background: rgb(246, 246, 246);
 
 
-    --font-family: 'Poppins', tahoma, sans-serif;
+	--font-family: 'Poppins', tahoma, sans-serif;
 
 
-    --fontsize-button: .8em;
+	--fontsize-button: .8em;
 
-  
-    --nav2-font-color: rgb(50, 50, 50);
+
+	--nav2-font-color: rgb(50, 50, 50);
 	--nav2-white-font-color: #ddd;
 
 
@@ -102,18 +102,18 @@ h1 {
 
 
 
-header>nav:first-of-type  {
-	
-	position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%; 
-    background-color: var(--color-background);
-    z-index: 100; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-  
+header>nav:first-of-type {
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: var(--color-background);
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
 }
 
 
@@ -121,6 +121,7 @@ header>nav:first-of-type button:nth-of-type(1) img {
 	width: 3em;
 	margin: 0;
 	padding: 0;
+	cursor: pointer;
 }
 
 header>nav:first-of-type button:nth-of-type(2) img {
@@ -151,27 +152,32 @@ header>nav:first-of-type button:nth-of-type(4) img {
 header>nav:first-of-type button:nth-of-type(1) {
 	order: 1;
 	background-color: transparent;
+	cursor: pointer;
 }
 
 header>nav:first-of-type button:nth-of-type(2) {
 	order: 2;
 	background-color: transparent;
+	cursor: pointer;
 
 }
 
 header>nav:first-of-type a {
 	order: 3;
 	background-color: transparent;
+	cursor: pointer;
 }
 
 header>nav:first-of-type button:nth-of-type(3) {
 	order: 4;
 	background-color: transparent;
+	cursor: pointer;
 }
 
 header>nav:first-of-type button:nth-of-type(4) {
 	order: 5;
 	background-color: transparent;
+	cursor: pointer;
 }
 
 
@@ -182,7 +188,7 @@ header>nav:first-of-type button:nth-of-type(4) {
 /*********************/
 /* Hamburger button */
 /*********************/
-header>nav:first-of-type button{
+header>nav:first-of-type button {
 
 	display: flex;
 	align-items: center;
@@ -195,11 +201,13 @@ header>nav:first-of-type button{
 	text-align: center;
 	color: var(--color-text);
 
+	cursor: pointer;
+
 }
 
-header > nav:first-of-type button:nth-of-type(1) {
-    padding-left: 0; /* Verwijdert de padding aan de linkerzijde */
-    margin-left: 0; /* Verwijdert de marge aan de linkerzijde */
+header>nav:first-of-type button:nth-of-type(1) {
+	padding-left: 0;
+	margin-left: 0;
 }
 
 
@@ -217,7 +225,7 @@ header>nav:first-of-type a {
 	text-align: center;
 	color: var(--color-text);
 	margin: 0;
-	
+
 	padding: .5em;
 
 }
@@ -243,9 +251,10 @@ header nav button {
 nav:last-of-type button {
 	/* Zorg dat de sluit-knop bovenaan staat en helemaal rechts positioneren */
 	position: absolute;
-background-color: transparent;
+	background-color: transparent;
 	margin: .5em;
 	border: none;
+	cursor: pointer;
 
 }
 
@@ -277,7 +286,7 @@ header>nav:last-of-type {
 	z-index: 100;
 
 	width: 29em;
-	
+
 	overflow-y: scroll;
 }
 
@@ -296,7 +305,7 @@ nav form {
 	padding: 0;
 	display: flex;
 	gap: 1em;
-	background-color: var(--black-text)
+	background-color: var(--black-text);
 }
 
 nav label {
@@ -308,6 +317,7 @@ nav label {
 	font-size: .9em;
 	font-weight: bold;
 	color: var(--white-text);
+
 }
 
 /* Highlight geselecteerde optie */
@@ -322,6 +332,7 @@ label input {
 	position: absolute;
 	inset: 0;
 	margin: 0;
+	cursor: pointer; 
 }
 
 
@@ -386,6 +397,8 @@ header nav:last-of-type ul:nth-of-type(5) li a {
 	font-family: var(--font-family);
 	text-decoration: none;
 	font-size: .8em;
+
+	cursor: pointer; 
 }
 
 header nav:last-of-type ul:nth-of-type(5) {
@@ -394,6 +407,7 @@ header nav:last-of-type ul:nth-of-type(5) {
 
 header nav:last-of-type ul img {
 	width: 1.2em;
+	cursor: pointer; 
 
 }
 

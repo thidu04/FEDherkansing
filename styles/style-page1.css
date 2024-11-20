@@ -144,6 +144,7 @@ main section:nth-of-type(1)>ul li a {
 
     margin: 1em;
     justify-self: center;
+    cursor: pointer; 
 }
 
 main section:nth-of-type(1) nav ul {
@@ -158,6 +159,7 @@ main nav a {
     background-color: var(--color-text);
     border-radius: 25px;
     display: flex;
+    cursor: pointer; 
 }
 
 /**********************/
@@ -270,6 +272,8 @@ section:nth-of-type(4) label {
     height: 2.5em;
     display: flex;
     align-items: center;
+
+    cursor: pointer; 
 }
 
 
@@ -316,6 +320,8 @@ section:nth-of-type(4) ul li img {
     display: block;
     grid-row: 1;
     padding: 2em;
+
+    cursor: pointer; 
 
 }
 
@@ -498,8 +504,6 @@ main section:nth-of-type(6) a:visited {
 }
 
 
-
-
 section:nth-of-type(6) ul {
     margin: 0;
     padding: 0;
@@ -517,6 +521,7 @@ section:nth-of-type(6) ul li img {
     display: block;
     grid-row: 1;
     padding: 2em;
+    cursor: pointer; 
 
 }
 

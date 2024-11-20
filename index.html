@@ -21,25 +21,23 @@
 		<h1>Korean Skincare homepagina</h1>
 
 		<!-- NAV 1 -->
-		<!-- Ik moet wat aanpassen in de code over de nav1, zie: README ### Dit was lastig/Is niet gelukt: -->
-		<nav>
+		<nav aria-label="Navigatiebalk">
 			<!-- Hamburgermenu open -->
-			<button aria-label="Open menu">
-				<img src="images/hamburger-icon.png" alt="Hamburger icon" />
+			<button aria-hidden="true"><img src="images/hamburger-icon.png" alt="hamburger icon" />
 			</button>
 
-			<button>
-				<img src="images/search-icon.svg" alt="Search icon">
+			<button aria-label="zoek button">
+				<img src="images/search-icon.svg" alt="search icon">
 			</button>
 			<a href="index.html">
-				<img src="images/logo-kskincare.png" alt="Logo Korean Skincare">
+				<img src="images/logo-kskincare.png" alt="logo Korean Skincare">
 			</a>
-			<button>
-				<img src="images/profile-icon.svg" alt="Profile icon">
+			<button aria-label="profiel button">
+				<img src="images/profile-icon.svg" alt="profile icon">
 			</button>
 
-			<button>
-				<img src="images/cart-icon.svg" alt="Cart icon">
+			<button  id="cart-button" aria-label="winkelwagen button">
+				<img src="images/cart-icon.svg" alt="cart icon">
 				<span id="cart-count">0</span>
 			</button>
 		</nav>
@@ -290,7 +288,7 @@
 				</li>
 				<li class="cleansers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/clearcode-superfruit-cleanser.webp" alt="">
+						<img src="images/products-filter/clearcode-superfruit-cleanser.webp" alt="clearcode superfruit cleanser">
 					</a>
 					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
@@ -303,7 +301,7 @@
 				</li>
 				<li class="cleansers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/jumiso-pore-cleansing-oil.webp" alt="">
+						<img src="images/products-filter/jumiso-pore-cleansing-oil.webp" alt="jumiso pore cleansing oil">
 					</a>
 					<button aria-label="likebutton">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
@@ -316,7 +314,7 @@
 				</li>
 				<li class="cleansers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/clean-it-zero-cleansing-balm.webp" alt="">
+						<img src="images/products-filter/clean-it-zero-cleansing-balm.webp" alt="clean it zero cleansing balm">
 					</a>
 					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
@@ -330,7 +328,7 @@
 				</li>
 				<li class="cleansers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/wishtrend-foaming-wash.webp" alt="">
+						<img src="images/products-filter/wishtrend-foaming-wash.webp" alt="wishtrend foaming wash">
 					</a>
 					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
@@ -343,7 +341,7 @@
 				</li>
 				<li class="moisturizers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/skinlab-cream.webp" alt="">
+						<img src="images/products-filter/skinlab-cream.webp" alt="skinlab cream">
 					</a>
 					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
@@ -356,7 +354,7 @@
 				</li>
 				<li class="moisturizers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/needly-cream.webp" alt="">
+						<img src="images/products-filter/needly-cream.webp" alt="needly cream">
 					</a>
 					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
@@ -369,22 +367,22 @@
 				</li>
 				<li class="moisturizers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/skin1004-cream.webp" alt="">
+						<img src="images/products-filter/skin1004-cream.webp" alt="skin1004 cream">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>SKIN1004</h3>
 					<p>Madagascar Centella Tea-Trica B5 Cream</p>
 					<p>€19.95</p>
 				</li>
 				<li class="facemasks">
 					<a href="productpagina.html">
-						<img src="images/products-filter/isntree-mugwort-powder.webp" alt="">
+						<img src="images/products-filter/isntree-mugwort-powder.webp" alt="mugwort powder masker">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
@@ -395,35 +393,35 @@
 				</li>
 				<li class="facemasks">
 					<a href="productpagina.html">
-						<img src="images/products-filter/marymay-mask.webp" alt="">
+						<img src="images/products-filter/marymay-mask.webp" alt="mary mary masker">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>Mary & May</h3>
 					<p>Rose Hyaluronic Hydra Wash Off Pack</p>
 					<p>€20.95</p>
 				</li>
 				<li class="facemasks">
 					<a href="productpagina.html">
-						<img src="images/products-filter/tea-tree-mask.webp" alt="">
+						<img src="images/products-filter/tea-tree-mask.webp" alt="tea tree masker">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>Dr.CeuracleL</h3>
 					<p>Tea Tree Purifine Soothing Mask</p>
 					<p>€2.95</p>
 				</li>
 				<li class="serums">
 					<a href="productpagina.html">
-						<img src="images/products-filter/dr-althea-serum.webp" alt="">
+						<img src="images/products-filter/dr-althea-serum.webp" alt="doctor althea serum">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
@@ -434,65 +432,65 @@
 				</li>
 				<li class="serums">
 					<a href="productpagina.html">
-						<img src="images/products-filter/anua-serum.webp" alt="">
+						<img src="images/products-filter/anua-serum.webp" alt="anua serum">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>Anua</h3>
 					<p>7 Rice Ceramide hydrating Barrier Serum</p>
 					<p>€24.95</p>
 				</li>
 				<li class="serums">
 					<a href="productpagina.html">
-						<img src="images/products-filter/bywishtrend-serum.webp" alt="">
+						<img src="images/products-filter/bywishtrend-serum.webp" alt="by wish trend serum">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>By Wishtrend</h3>
 					<p>Blue Oasis Aloe Hydrating Serum</p>
 					<p>€26.95</p>
 				</li>
 				<li class="sunscreens">
 					<a href="productpagina.html">
-						<img src="images/products-filter/skinlab-sunscreen.webp" alt="">
+						<img src="images/products-filter/skinlab-sunscreen.webp" alt="skinlab sunscreen">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>Skin & Lab</h3>
 					<p>Hybarrier Fresh Sun Lotion SPF50+ PA++++</p>
 					<p>€21.95</p>
 				</li>
 				<li class="sunscreens">
 					<a href="productpagina.html">
-						<img src="images/products-filter/pyunkang-yul-suncreenstick.webp" alt="">
+						<img src="images/products-filter/pyunkang-yul-suncreenstick.webp" alt="pyung yul sunscreenstick">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>Pyunkang Yul</h3>
 					<p>Lightweight Airy Protection Sun Stick</p>
 					<p>€19.95</p>
 				</li>
 				<li class="sunscreens">
 					<a href="productpagina.html">
-						<img src="images/products-filter/jumiso-sunscreen.webp" alt="">
+						<img src="images/products-filter/jumiso-sunscreen.webp" alt="jumiso sunscreen">
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
 					<p>Nieuw</p>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>Jumiso</h3>
 					<p>Awe-Sun Airy-fi Moisturizer with Sunscreen SPF</p>
 					<p>€14.95</p>
@@ -520,12 +518,13 @@
 			<ul>
 				<li class="cleansers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/skinlab-cleanser.webp" alt="" />
+						<img src="images/products-filter/skinlab-cleanser.webp" alt="skinlab cleanser" />
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje
+					</button>
 					<h3>Skin & Lab</h3>
 					<p>Hybarrier Hyaluronic Capsule Cleanser</p>
 					<p>€17.95</p>
@@ -533,24 +532,24 @@
 
 				<li class="cleansers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/jumiso-pore-cleansing-oil.webp" alt="" />
+						<img src="images/products-filter/jumiso-pore-cleansing-oil.webp" alt="jumiso pore cleansing oil" />
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>Jumiso</h3>
 					<p>Gentle Pore Clearing Cleansing Oil</p>
 					<p>€22.95</p>
 				</li>
 				<li class="cleansers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/clean-it-zero-cleansing-balm.webp" alt="" />
+						<img src="images/products-filter/clean-it-zero-cleansing-balm.webp" alt="clean it zero balm" />
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>Banila co</h3>
 					<p>Clean It Zero Cleansing Balm Brightening</p>
 					<p>€21.95</p>
@@ -558,12 +557,12 @@
 				</li>
 				<li class="cleansers">
 					<a href="productpagina.html">
-						<img src="images/products-filter/wishtrend-foaming-wash.webp" alt="" />
+						<img src="images/products-filter/wishtrend-foaming-wash.webp" alt="wish trend foaming wash" />
 					</a>
-					<button>
+					<button aria-label="like button">
 						<img src="images/like-button.svg" alt="like button voeg toe aan favorieten">
 					</button>
-					<button>In winkelmandje</button>
+					<button aria-label="winkelmand button">In winkelmandje</button>
 					<h3>By Wishtrend</h3>
 					<p>Green Tea & Enzyme Milky Foaming Wash</p>
 					<p>€17.95</p>
@@ -576,6 +575,7 @@
 		<section>
 			<h2>Trending</h2>
 			<article>
+				
 				<img src="images/cream1-grid.jpeg" alt="Anua cream">
 				<a href="#">Anua</a>
 			</article>
@@ -613,13 +613,13 @@
 	</main>
 	<!--SECTION FOOTER 1 -->
 	<!--FOOTER NEWSLETTER -->
-	<footer>
+	<footer aria-label="Hier begint de footer">
 		<section>
 			<h2>KS newsletter</h2>
 			<p>Meld je aan voor onze nieuwsbrief en ontvang een kortingscode van 5%!</p>
 			<form>
 				<input type="text" id="fname" name="fname" value="Je E-mailadres">
-				<button type="submit">Inschrijven</button>
+				<button type="submit" aria-label="Inschrijf button">Inschrijven</button>
 			</form>
 		</section>
 		<!--SECTION FOOTER 2 -->
@@ -704,6 +704,7 @@
 			</ul>
 		</section>
 		<section>
+			<h2>Betaalmiddelen</h2>
 			<p>Copyright © 2024. Korean-Skincare. Alle rechten voorbehouden.</p>
 			<img src="images/payments-icon/visa.svg" alt="visa betaalmiddel">
 			<img src="images/payments-icon/mastercard.svg" alt="mastercard betaalmiddel">

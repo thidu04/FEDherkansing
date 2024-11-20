@@ -437,7 +437,9 @@ Als ik wat meer tijd had zou ik het nog willen uitvogelen hoe ik het weer netjes
 Ik kreeg tijdens het valideren een error op mijn winkelmand teller, ik probeerde juist div te vermijden en span, dus had ik voor p gekozen omdat het toch een nummer/tekst was. Er werd gezeg dat in een button geen p mag en ook geen div. Ik heb daarom toch maar span gebruikt, en voor de zekerheid chatgpt gevraagd of het nog semantisch is om te gebruiken en ze zeiden dat in mijn geval span beste optie zou zijn. 
 
    <img src="readme-images/error-validatie.png" width="375px" alt="nav 1 foutmelding">
-   
+
+   Op de tweede pagina heb ik geprobeerd om van images te veranderen als je eroverheen hovert, ik heb hierbij ook hulp gekregen van Giulietta, wel had ik een probleem dat die hartbutton mee verdwijnt, en dat wil ik juist niet. Ik heb het geprobeerd te doen met z-index aanpassen zodat hij boven de images zit, maar alsnog wordt hij meegenomen. Ik zou dat graag willen uitvogelen als dat nog kon. 
+
 </details>
 
 ## Eindgesprek (deadline 1e kans) (week 7)
