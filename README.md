@@ -249,7 +249,7 @@ Keysha:
   - Linkjes bij images waar nodig is, ook een beschrijving wordt er gegeven.
   - de buttons worden ook opgelezen.
   - De video kun je laten afspelen op de huidige pagina, op de originele site wordt je meteen gelinked naar een andere pagina.
-  
+
 
 </details>
 
@@ -402,7 +402,7 @@ Ook krijg je als feedback een geluidje te horen (geld geluid) dat je het hebt ge
 
 </details>
 
-## Eindgesprek herkansing (week 7)
+## Eindgesprek (deadline 2e kans) (week 7)
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
@@ -410,6 +410,51 @@ Ook krijg je als feedback een geluidje te horen (geld geluid) dat je het hebt ge
   ### Je uitkomst - karakteristiek screenshots:
 
   <img src="readme-images/fullscreenshot-home1.png" width="300px" alt="uitomst opdracht 1">
+
+
+  ### Dit ging goed/Heb ik geleerd (deadline 2e kans): 
+
+  De filteroptie is deze keer wel gelukt om te maken! Sanne had mij tijdens de extra voortgangsgesprek geleerd hoe je het moet maken. Dit was veel makkelijker dan gedacht. Dit kon ik vaak toepassen in mijn site, zoals hamburgermenu en producte filteren. 
+
+  De navigatiedots heb ik ook toegepast op de tweedepagina, om dat te besturen met plaatjes ipv dots.
+
+  Ik heb geleerd hoe je dark/light mode moest gebruiken met custom properties. Diya had mij het ook extra uitgelegd, ik was er namelijk niet tijdens die les. 
+
+  Ik heb ook geleerd om de animaties toe te passen voor de footer uitklapmenu. Ik ben daar erg tevreden over. Aan het begin zag het er lastig uit.
+
+  Ook heb ik microinteracties toegevoegd. Op de tweedepagina kun je op de winkelbutton klikken, de button verandert van kleur, het aantal van de winkelmand icoon in de nav verhoogt met +1 en er komt geld geluid uit.
+
+  Daarnaast heb ik deze surfaceplane elementen toegevoegd (Ik weet niet zeker of alles telt, ik heb er daarom om meer gemaakt)
+
+- [x] Animaties (plusicoon)
+- [x] Werkend carroussel
+- [x] Werkend filterfunctie
+- [x] Werkend form (label, input)
+- [x] Knop hartje werkend
+- [x] Knop winkelmand microinteractie
+- [x] Werkend form (input label)
+- [x] Video met geluid
+
+
+  ### Dit was lastig/Is niet gelukt (deadline 2e kans):
+
+  Het is mij niet gelukt om alles wat ik wilde af te maken, maar alle content die ik wilde staat wel op de pagina's, en heb ik ook een aantal goede werkende dingen uit gekregen!
+
+  - De caroussel werkt, maar de tekst op die posters heb ik nog niet kunnenn doen. Ik had wel al door in  mijn hoofd hoe het moest, verschillende soorten font uitzoeken en toevoegen in mijn css. Ook had ik de grid verdeling al ongeveer. Ik had dat meer op het einde bewaard om die vormgeving te doen, helaas ben ik er toch niet aan toegekomen.
+
+  - Ik wilde ook alle buttons van de nav werkend krijgen, maar daar ben ik helaas ook niet aan toegekomen. Wel weet ik hoe dat moet, zoals het hamburgermenu.
+
+  - Op het eind ging ik de a linkjes toevoegen over de product filter images, waardoor veel dingen gingen verschuiven.. Ik dacht dat het een klein werkje was, maar ik had dat eerder moeten doen.
+
+  - Niet alle alt heb ik een naam gegeven, ik had dat gelijk moeten doen, maar ik dacht dat ik daar wel later tijd voor heb.
+
+  - Ik wilde nog een light/dark mode button plaatsen. Ik heb dat nog niet kunnen doen, maar ik heb wel gekeken op de slides hoe dat zou moeten.
+
+  Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. Ook zou ik de alts gelijk moeten toevoegen bij de images, ook al is het geen leuk werk en denk je dat het makkelijk is om het later toe te voegen..
+
+ 
+
+</details>
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -425,7 +470,7 @@ Ook krijg je als feedback een geluidje te horen (geld geluid) dat je het hebt ge
   Ik ben heel tevreden met de footer, ik vind dat het er netjes uitziet en veel lijkt op de originele pagina. Ook vond ik het leuk om te maken vooral de animatie vind ik een leuke toevoeging. 
 
 
-  ### Dit was lastig/Is niet gelukt:
+  ### Dit was lastig/Is niet gelukt (deadline 1e kans):
 
   Het is mij niet gelukt om alles af te maken voor de deadline. Wel heb ik geprobeerd om zo ver mogelijk te komen. Ik heb mij vooral gefocust op de eerste pagina, want veel dingen komen in de 2e pagina in terug. 
 
