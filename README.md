@@ -240,6 +240,17 @@ Keysha:
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  ### Bevindingen
+  Lijst met je bevindingen die in de test naar voren kwamen:
+  - Ik heb een h1 toegevoegd dat ook wordt gelezen, de originele website heeft dat niet.
+  - Er wordt gelezen welke heading je bent. 
+  - De aria labels worden voorgelezen dit maakt het duidelijk wat voor sectie het is en waar.
+  - De navigatiebolletjes staan niet nu op de plaatjes in de eerste sectie, maar onder het plaatje. Dit is fijner voor de gebruiker, het overlapt de image niet.
+  - Linkjes bij images waar nodig is, ook een beschrijving wordt er gegeven.
+  - de buttons worden ook opgelezen.
+  - De video kun je laten afspelen op de huidige pagina, op de originele site wordt je meteen gelinked naar een andere pagina.
+  
+
 </details>
 
 

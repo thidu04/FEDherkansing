@@ -5,7 +5,6 @@
 :root {
 
     color-scheme: light dark;
-    --footer-background: light-dark( rgb(246, 246, 246),rgb(51, 51, 51 ));
 
 
 	--color-text: light-dark(#111, #eee);
@@ -13,6 +12,7 @@
 	--color-text-white: light-dark(#fff, #111);
 	--black-color-background: light-dark(#111, #eee);
     --breadcrumbs-gray:light-dark(rgb(118, 117, 117),#fff );
+    --breadcrumbs-background: light-dark(rgb(246, 246, 246),rgb(58, 58, 58));
 
 
     --white-text: #eee;
@@ -33,6 +33,9 @@
 
     --nav2-font-color: rgb(50, 50, 50);
     --nav2-white-font-color: #ddd;
+    --footer-background: rgb(246, 246, 246);
+
+    --heart-color:  red; 
 
 }
 
@@ -88,7 +91,7 @@ section:nth-of-type(1)>ul:nth-of-type(1) {
     padding: 1em;
     display: flex;
     gap: .5em;
-    background-color: var(--footer-background);
+    background-color: var(--breadcrumbs-background);
 }
 
 /*BREADCRUMBS*/
@@ -219,7 +222,7 @@ section:nth-of-type(1) article input {
     cursor: pointer;
 }
 
-/* WINKELMAND TELLER p NAV */
+/* WINKELMAND TELLER span, want div en p mocht ik niet gebruiken */
 #cart-count {
     background-color: none;
     color: var(--color-text);
@@ -239,7 +242,7 @@ section:nth-of-type(1) article input {
 .add-to-cart-button {
     padding: 1em;
     background-color: var(--button-color);
-    color: var(--color-text);
+    color: var(--white-text);
     font-weight: bold;
     cursor: pointer;
 }
@@ -269,7 +272,7 @@ section:nth-of-type(1) article input {
 
 /* Like button wordt rood na klik */
 .like-button.clicked {
-    color: red; 
+    color: var(--heart-color) ;
 }
 
 
@@ -399,7 +402,7 @@ main section:nth-of-type(2) ul li button:last-of-type {
     padding: .5em;
 
     background-color: var(--button-color);
-    color: var(--color-text-white);
+    color: var(--white-text);
     font-family: var(--font-family);
     font-weight: 600;
     text-transform: uppercase;
@@ -416,7 +419,7 @@ main section:nth-of-type(2) ul li p:nth-of-type(1) {
     margin: 1.5em;
     padding: .4em;
     background-color: var(--button-color);
-    color: var(--color-text-white);
+    color: var(--white-text);
     font-family: var(--font-family);
     font-size: .7em;
     font-weight: 500;
@@ -426,6 +429,7 @@ main section:nth-of-type(2) ul li p:nth-of-type(1) {
  main section:nth-of-type(2) ul li h3,
 main section:nth-of-type(2) ul li p:nth-of-type(2) {
     margin: 0;
+    color: var(--color-text);
     font-family: var(--font-family);
 
 }
@@ -440,6 +444,5 @@ main section:nth-of-type(2) ul li p:nth-of-type(3) {
 
 main section:nth-of-type(2) ul li h3 {
     font-size: 1.1em;
-    color: #333;
 }
 

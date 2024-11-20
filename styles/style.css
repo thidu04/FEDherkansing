@@ -54,7 +54,6 @@ on November 16, 2024 */
 	--color-text-white: light-dark(#fff, #111);
 	--black-color-background: light-dark(#111, #eee);
 
-
    
 
 	--black-color-background: #111;
@@ -109,7 +108,7 @@ header>nav:first-of-type  {
     top: 0;
     left: 0;
     width: 100%; 
-    background-color: var(--nav1-color);
+    background-color: var(--color-background);
     z-index: 100; 
     display: flex; 
     justify-content: space-between; 

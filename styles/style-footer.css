@@ -76,6 +76,7 @@ footer section:nth-of-type(1) input {
     margin-bottom: 1em;
     font-family: var(--font-family);
     background-color: var(--white-text);
+    color: var(--black-text);
     font-size: 0.9em;
     border: none;
 }
