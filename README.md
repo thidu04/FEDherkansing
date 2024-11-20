@@ -434,6 +434,10 @@ Ik gebruikte eerst voor mij video iframe, maar ik denk dat dat niet heel semanti
 
 Als ik wat meer tijd had zou ik het nog willen uitvogelen hoe ik het weer netjes recht krijg.
 
+Ik kreeg tijdens het valideren een error op mijn winkelmand teller, ik probeerde juist div te vermijden en span, dus had ik voor p gekozen omdat het toch een nummer/tekst was. Er werd gezeg dat in een button geen p mag en ook geen div. Ik heb daarom toch maar span gebruikt, en voor de zekerheid chatgpt gevraagd of het nog semantisch is om te gebruiken en ze zeiden dat in mijn geval span beste optie zou zijn. 
+
+   <img src="readme-images/error-validatie.png" width="375px" alt="nav 1 foutmelding">
+   
 </details>
 
 ## Eindgesprek (deadline 1e kans) (week 7)
@@ -482,11 +486,6 @@ Tijdens het valideren van mijn index pagina, heb ik een error gekregen bij mijn 
   <img src="readme-images/Foutmelding-nav1.png" width="375px" alt="nav 1 foutmelding">
 
   Wat ik beter kon doen is mijn read-me up to date houden tijdens dat ik bezig ben met coderen, dit heb ik niet gedaan maar pas op laatste moment, waardoor ik veel terug moest zoeken en veel moet schrijven. De meeste dingen staan er nu erin, maar ik wil nog wat uitleg en screenshots toevoegen om het meer compleet te maken.
-  
-
-  Ik kreeg tijdens het valideren een error op mijn winkelmand teller, ik probeerde juist div te vermijden en span, dus had ik voor p gekozen omdat het toch een nummer/tekst was. Er werd gezeg dat in een button geen p mag en ook geen div. Ik heb daarom toch maar span gebruikt, en voor de zekerheid chatgpt gevraagd of het nog semantisch is om te gebruiken en ze zeiden dat in mijn geval span beste optie zou zijn. 
-
-   <img src="readme-images/error-validatie.png" width="375px" alt="nav 1 foutmelding">
 
 
 
