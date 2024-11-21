@@ -44,7 +44,7 @@ ChatGPT voor de button verandering na een klik.
 /*Teller die aantallen bijhoudt in winkelmandje */
 let cartCount = 0;
 
-const cartSound = new Audio('/audio/buysound.mp3');
+const cartSound = new Audio('../audio/buysound.mp3');
 
 
 /* Alle aantallen updaten in het winkelmandje */
