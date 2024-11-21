@@ -44,7 +44,7 @@ ChatGPT voor de button verandering na een klik.
 /*Teller die aantallen bijhoudt in winkelmandje */
 let cartCount = 0;
 
-const cartSound = new Audio('../audio/buy-sound.mp3');
+const cartSound = new Audio('/audio/buysound.mp3');
 
 
 /* Alle aantallen updaten in het winkelmandje */
@@ -73,7 +73,7 @@ addToCartButtons.forEach(button => {
       button.classList.remove('clicked'); // Verwijder de tijdelijke stijl
     }, 1000); // Tijd in milliseconden
   });
-  
+
   const likeButton = document.querySelector('.like-button');
 
 // Voeg een klik event toe aan de like-button
